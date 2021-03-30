@@ -301,7 +301,8 @@ a:hover {
 ----------------------------------------------- */
 .l-header {
     width: 100%;
-    max-width: 1040px;
+    padding: .5rem .75rem;
+    background: #000;
     z-index: 100;
     transform: translateY(-2px);
 }
@@ -317,6 +318,7 @@ a:hover {
 @media screen and (min-width: 768px) {
     .l-header {
         position: fixed;
+        padding: .5rem 0;
     }
 }
 
@@ -384,10 +386,10 @@ a:hover {
 }
 
 /* button */
-.c-button{
+.c-button {
     display: block;
     width: 240px;
-    background-color: #cc9a1d;/* 金 */
+    background-color: #cc9a1d; /* 金 */
 }
 
 /* SNS */
@@ -406,7 +408,6 @@ a:hover {
 ----------------------------------------------- */
 
 /* Header */
-
 
 
 .logo img {
