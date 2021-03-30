@@ -12,68 +12,74 @@
 </head>
 
 <body>
-    <div id="Container">
-        <div id="loading">
-            <div class="loader"></div>
-        </div>
+<div id="container">
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
 
-        <header>
-            <h1 class="logo"><a href="/" title=""><img src="./shared/img/img_logo.png" alt=""></a></h1>
+    <header class="l-header">
+        <div class="l-flex l-container">
+            <h1 class="logo">
+                <a href="/" title="">
+                    <img src="./shared/img/img_logo.png" alt="">
+                </a>
+            </h1>
             <a class="menu-btn sp-display">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
-        </header>
-        <nav>
-            <div class="nav2row">
-                <ul class="nav-txt">
-                    <li><a href="/" itemprop="url">Top</a></li>
-                    <li><a href="/profile/" itemprop="url">Profile</a></li>
-                    <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
-                </ul>
-            </div>
-            <ul class="nav-sns">
-                <li><a href="" target="_blank" class="gc"><span class="icon-facebook"></span></a></li>
-                <li><a href="" target="_blank" class="gc"><span class="icon-twitter"></span></a></li>
-                <li><a href="" target="_blank" class="gc"><span class="icon-vimeo"></span></a></li>
-            </ul>
-        </nav>
-
-        <main>
-        <section id="TopImg">
-            <div class="p-top">
-
-            </div>
-        </section>
-        </main>
-
-        <footer>
-            <div class="fnav-sns">
-                <ul>
+            <nav>
+                <div class="nav">
+                    <ul class="l-flex">
+                        <li><a href="/" itemprop="url">Top</a></li>
+                        <li><a href="/profile/" itemprop="url">Profile</a></li>
+                        <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
+                    </ul>
+                </div>
+                <ul class="nav-sns">
                     <li><a href="" target="_blank" class="gc"><span class="icon-facebook"></span></a></li>
                     <li><a href="" target="_blank" class="gc"><span class="icon-twitter"></span></a></li>
                     <li><a href="" target="_blank" class="gc"><span class="icon-vimeo"></span></a></li>
                 </ul>
-            </div>
+            </nav>
+        </div>
+    </header>
 
-            <div class="fnav">
-                <ul>
-                    <li><a href="/" itemprop="url">Top</a></li>
-                    <li><a href="/profile/" itemprop="url">Profile</a></li>
-                    <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
-                </ul>
+    <main>
+        <section id="topImg">
+            <div class="top">
+
             </div>
-            <div id="copyrightArea">
-                <p id="copyright">© Level Ueshima</p>
-            </div>
-        </footer>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./shared/js/vender/lazysizes.min.js"></script>
-    <script src="./shared/js/vender/lity.min.js"></script>
-    <script src="./shared/js/vender/swiper-bundle.min.js"></script>
-    <script src="./shared/js/index.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <div class="fnav-sns">
+            <ul>
+                <li><a href="" target="_blank" class="gc"><span class="icon-facebook"></span></a></li>
+                <li><a href="" target="_blank" class="gc"><span class="icon-twitter"></span></a></li>
+                <li><a href="" target="_blank" class="gc"><span class="icon-vimeo"></span></a></li>
+            </ul>
+        </div>
+
+        <div class="fnav">
+            <ul>
+                <li><a href="/" itemprop="url">Top</a></li>
+                <li><a href="/profile/" itemprop="url">Profile</a></li>
+                <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
+            </ul>
+        </div>
+        <div id="copyrightArea">
+            <p id="copyright">© Level Ueshima</p>
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./shared/js/vender/lazysizes.min.js"></script>
+<script src="./shared/js/vender/lity.min.js"></script>
+<script src="./shared/js/vender/swiper-bundle.min.js"></script>
+<script src="./shared/js/index.js"></script>
 </body>
 
 </html>

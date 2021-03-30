@@ -1,2 +1,414 @@
 @charset "utf-8";
 
+/*===================================================
+  Foundation
+====================================================*/
+
+/*
+  Reset
+----------------------------------------------- */
+* {
+    font-size: 100%;
+}
+
+html {
+    margin: 0;
+    overflow: scroll;
+    padding: 0;
+}
+
+body {
+    color: #555;
+    font-family: 'Noto Sans JP', 'Josefin Sans', "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif, serif;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    -webkit-text-size-adjust: 100%;
+}
+
+a, a:link {
+    color: inherit;
+    cursor: pointer;
+    backface-visibility: hidden;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+address, cite, dfn, em, i, var {
+    font-style: normal;
+}
+
+button {
+    background: #aaa;
+    cursor: pointer;
+}
+
+br {
+    letter-spacing: 0;
+}
+
+button, input[type="button"], input[type="image"], input[type="submit"] {
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 0;
+    box-sizing: content-box;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+}
+
+code {
+    font-family: inherit;
+}
+
+blockquote {
+    content: none;
+}
+
+blockquote, dl, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, legend, menu, ol, p, ul {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-end: 0;
+    -webkit-margin-start: 0;
+    -webkit-padding-after: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-end: 0;
+    -webkit-padding-start: 0;
+}
+
+kbd, samp {
+    font-family: inherit;
+}
+
+keygen {
+    border-radius: 0;
+    color: inherit;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    cursor: auto;
+    padding: 0;
+    resize: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+}
+
+ins {
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid #aaa;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+pre {
+    font-family: inherit;
+}
+
+q:after, q:before {
+    content: none;
+}
+
+ruby, rt {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    background: #aaa;
+    border: 0;
+    border-radius: 0;
+    box-sizing: content-box;
+    color: inherit;
+}
+
+small {
+    font-size: inherit;
+}
+
+table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr {
+    border-bottom: 1px solid #aaa;
+}
+
+th, td {
+    border-left: 1px solid #aaa;
+}
+
+address, article, aside, blockquote, details, summary, div, dl, dt, dd, fieldset, figcaption, figure, form, header, hgroup, h1, h2, h3, h4, h5, h6, hr, legend, main, menu, nav, ol, optgroup, p, pre, rt, section, option, ul {
+    background: transparent;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a, abbr, area, audio, b, base, bdi, bdo, br, canvas, cite, code, del, dfn, em, embed, footer, i, iframe, img, ins, kbd, label, mark, menu, noscript, object, output, q, ruby, s, samp, small, source, span, strong, sub, sup, time, u, var, video, track, wbr {
+    background: transparent;
+    border: 0;
+    font-weight: inherit;
+    vertical-align: top;
+}
+
+button, keygen, input, textarea, meter, progress, select {
+    font-family: inherit;
+    vertical-align: top;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+mark {
+    background: linear-gradient(transparent 60%, #dbf15d90 60%);
+    color: inherit;
+}
+
+/*
+  Base
+-----------------------------------------------------*/
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 160px;
+}
+
+body {
+    height: 100%;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    font-family: 'Noto Sans JP', 'Josefin Sans', "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif, serif;
+    font-size: 15px;
+    font-feature-settings: 'palt';
+    letter-spacing: 1.5px;
+}
+
+body.is-drawerActive {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    backface-visibility: hidden;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+/*===================================================
+  Lauout
+====================================================*/
+
+/*
+  Centering
+----------------------------------------------- */
+.l-container {
+    width: 335px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    .l-container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .l-container {
+        width: 710px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .l-container {
+        width: 100%;
+        padding: 0 20px;
+        max-width: 1040px;
+    }
+}
+
+/*
+  Flex
+----------------------------------------------- */
+.l-flex {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .l-flex--tab {
+        display: flex;
+        align-items: start;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .l-flex--pc {
+        display: flex;
+        align-items: start;
+    }
+}
+
+.l-flex--column {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+  Base layout
+----------------------------------------------- */
+.l-header {
+    width: 100%;
+    max-width: 1040px;
+    z-index: 100;
+    transform: translateY(-2px);
+}
+
+.l-header .l-flex {
+    justify-content: space-between;
+}
+
+.l-header .l-container {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .l-header {
+        position: fixed;
+    }
+}
+
+.l-main {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.l-footer {
+    width: 100%;
+    text-align: center;
+}
+
+/*===================================================
+  Object
+====================================================*/
+/*
+  Component
+----------------------------------------------- */
+
+/* title */
+.c-title {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.75;
+    letter-spacing: 0.15em;
+}
+
+.c-title::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* heading */
+.c-heading {
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .c-title {
+        font-size: 2.25rem;
+    }
+
+    .c-title::before {
+        width: 50px;
+        height: 50px;
+        top: -60px;
+    }
+
+    .c-heading {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+/* button */
+.c-button{
+    display: block;
+    width: 240px;
+    background-color: #cc9a1d;/* 金 */
+}
+
+/* SNS */
+/*.c-sns__wrap {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.c-sns__item {*/
+/*    display: block;*/
+/*    width: 2.5rem;*/
+/*}*/
+
+/*
+  Project
+----------------------------------------------- */
+
+/* Header */
+
+
+
+.logo img {
+    width: 120px;
+}
