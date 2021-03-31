@@ -13,12 +13,6 @@
 
 <body>
 <div class="l-wrapper">
-    <div class="l-container">
-        <div id="loading">
-            <div class="loader"></div>
-        </div>
-    </div>
-
     <header class="l-header">
         <div class="l-flex l-container">
             <h1 class="p-header--logo">
