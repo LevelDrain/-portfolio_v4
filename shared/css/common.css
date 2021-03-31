@@ -437,9 +437,21 @@ a:hover {
     margin: 0 auto;
 }
 
+.p-mainVisual--pc {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .p-mainVisual {
         padding-top: 3.5rem;
+    }
+
+    .p-mainVisual--pc {
+        display: block;
+    }
+
+    .p-mainVisual--sp {
+        display: none;
     }
 }
 
@@ -449,4 +461,36 @@ a:hover {
     padding: 1.25rem 0;
     font-size: .75rem;
     background-color: #000;
+}
+
+/*
+  Utility
+----------------------------------------------- */
+.screen-render-txt {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.note-img img {
+    width: 70px;
+    padding-right: 4px;
+    vertical-align: middle;
+    transform: translateY(-2px);
+}
+
+.pc-br {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .sp-br {
+        display: none;
+    }
+
+    .pc-br {
+        display: block;
+    }
 }

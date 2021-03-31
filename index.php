@@ -43,22 +43,29 @@
     <main class="l-main">
         <section class="p-mainVisual">
             <div class="p-mainVisual--img">
-                <img class="p-mainVisual--pc" src="./shared/img/img_top_pc.png" alt="">
-                <img class="p-mainVisual--sp" src="./shared/img/img_top_sp.png" alt="">
-                <img class="p-mainVisual--sp" src="./shared/img/img_top_copy.png" alt="">
+                <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">
+                <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">
+                <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">
             </div>
         </section>
         <secrion class="p-what">
             <div class="l-container">
                 <div class="l-flex--pc">
-                    <div class="text">
-                        <p class="c-heading">
-                            ※各レベルに点数（各2点）を付けます（満点6点）。
-                            動作することが加点基準です。例えば，レベル1を実装しないとレベル2は動きませんし，レベル2が無いとレベル3も動きません。下位のレベルが実装されていない場合は，仮に正しいプログラムが掛かれていても加点しません。
-                            また，提出してもらった課題はできるだけ早くフィードバックできる状態にしますので，点数が知りたい人は翌週授業以降に申し出てください。フィードバック付きで伝えます。
-                            原則，メールによる点数の問い合わせは受け付けませんので，直接聞いてください。授業外であれば，2F 事務室から呼んでください（サンプルテキスト）
-                        </p>
-                    </div>
+                    <p class="c-heading">
+                        デザインからアニメーションへの書き起こし。<br>
+                        デザイナーやクライアントの意図を汲み取り、アニメーションの実装を心がけます。
+                        <img src="./img/img_pr1.gif" alt="" width="300">
+                    </p>
+                    <p class="c-heading">
+                        メンテナンスの簡略化。<br>
+                        PHPでデータベースやCSVなどからデータを呼び出せるようにし、リソースを管理しやすくします。
+                        <img src="./img/img_pr2.png" alt="" width="300">
+                    </p>
+                    <p class="c-heading">
+                        コーディングからデザインまで。<br>
+                        インタラクションデザイナーを目指し、日々コーディングだけでなくデザインスキルの向上にも努めています。
+                        <img src="./img/img_pr3.png" alt="" width="300">
+                    </p>
                 </div>
             </div>
         </secrion>
