@@ -359,7 +359,7 @@ a:hover {
 .c-heading {
     line-height: 1.75;
     text-align: left;
-    margin-top: 1.25rem;
+    /*margin-top: 1.25rem;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -375,7 +375,7 @@ a:hover {
 
     .c-heading {
         font-size: 1rem;
-        margin-top: 1.5rem;
+        /*margin-top: 1.5rem;*/
     }
 }
 
@@ -384,6 +384,36 @@ a:hover {
     display: block;
     width: 240px;
     background-color: #cc9a1d; /* 金 */
+}
+
+/* card */
+.c-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    word-wrap: break-word;
+    /*background: #000 border-box;*/
+    /*border: 1px solid #000;*/
+}
+
+.c-card--body {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.c-card--title {
+    padding-top: 1rem;
+    margin-bottom: .75rem;
+}
+
+.c-card--img {
+    width: 100%;
+}
+
+.c-card--text {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 /* SNS */
@@ -434,7 +464,7 @@ a:hover {
     padding-top: 1rem;
     text-align: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
 }
 
 .p-mainVisual--pc {
@@ -443,7 +473,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .p-mainVisual {
-        padding-top: 3.5rem;
+        padding-top: 2rem;
     }
 
     .p-mainVisual--pc {
@@ -453,6 +483,15 @@ a:hover {
     .p-mainVisual--sp {
         display: none;
     }
+}
+
+/* PR point */
+.p-pr {
+    margin: 0 auto 3rem;
+}
+
+.p-pr .c-card{
+    padding: 0 .5rem;
 }
 
 /* Footer */
