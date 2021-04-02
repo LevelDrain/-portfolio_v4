@@ -48,6 +48,176 @@
                 <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">
             </div>
         </section>
+
+        <section class="p-pr">
+            <div class="l-container">
+                <p class="c-heading">デザインスキル日々向上しています。ここにアピールポイントが入ります……</p>
+            </div>
+        </section>
+
+        <section class="p-pickup">
+            <div class="l-container">
+                <h2 class="c-title">制作実績</h2>
+                <h3 class="c-title">Pick Up</h3>
+
+                <div class="p-pickup--container">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- ここからswiperテンプレ -->
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <div class="swiper-slide slide-item">
+                                <img src="img/portfolio4_bunner.png" alt="">
+                            </div>
+                            <!-- テンプレ終了 -->
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-portfolio">
+            <div class="l-container">
+                <h3 class="c-title">フロントエンド作品</h3>
+                <div class="l-flex--pc l-flex--tab">
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル1</h5>
+                        <div class="c-card--body">
+                            <p class="c -card--text">
+                                HTML5 / CSS3 / JavaScript
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル2</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                Vue.js
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル3</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                WordPress + デザイン
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-container">
+                <h3 class="c-title">バナーなどデザイン作品</h3>
+                <div class="l-flex--pc l-flex--tab">
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル1</h5>
+                        <div class="c-card--body">
+                            <p class="c -card--text">
+                                CLIPSTUDIO
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル2</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                Photoshop
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル3</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                Photoshop
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-container">
+                <h3 class="c-title">前田デザイン室活動</h3>
+                <!-- note埋め込み -->
+                <div class="l-flex--pc l-flex--tab">
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル1</h5>
+                        <div class="c-card--body">
+                            <p class="c -card--text">
+                                note埋め込み予定
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル2</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                note埋め込み予定
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル3</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                note埋め込み予定
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-container">
+                <h3 class="c-title">バックエンド作品</h3>
+                <div class="l-flex--pc l-flex--tab">
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル1</h5>
+                        <div class="c-card--body">
+                            <p class="c -card--text">
+                                PHP
+                            </p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                        <h5 class="c-card--title">タイトル2</h5>
+                        <div class="c-card--body">
+                            <p class="c-card--text">
+                                PHP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <secrion class="p-pr">
             <div class="l-flex--pc l-flex--tab">
                 <div class="c-card">
@@ -81,6 +251,7 @@
                 </div>
             </div>
         </secrion>
+
     </main>
 
     <footer class="l-footer">
