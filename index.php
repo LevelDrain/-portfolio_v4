@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>上島水準 Level Ueshima | ポートフォリオ</title>
-    <link rel="stylesheet" href="./shared/css/vender/lity.min.css">
-    <link rel="stylesheet" href="./shared/css/vender/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./shared/css/vendor/lity.min.css">
+    <link rel="stylesheet" href="./shared/css/vendor/swiper-bundle.min.css">
     <link rel="stylesheet" href="./shared/css/common.css">
 </head>
 
@@ -46,6 +46,12 @@
                 <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">
                 <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">
                 <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">
+            </div>
+        </section>
+
+        <section class="p-mainVisual">
+            <div class="p-mainVisual--img">
+                <canvas class="canvas"></canvas>
             </div>
         </section>
 
@@ -262,9 +268,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="./shared/js/vender/lazysizes.min.js"></script>
-<script src="./shared/js/vender/lity.min.js"></script>
-<script src="./shared/js/vender/swiper-bundle.min.js"></script>
+<script src="./shared/js/vendor/lazysizes.min.js"></script>
+<script src="./shared/js/vendor/lity.min.js"></script>
+<script src="./shared/js/vendor/swiper-bundle.min.js"></script>
+<script src="./shared/js/vendor/three.min.js"></script>
 <script src="./shared/js/index.js"></script>
 </body>
 

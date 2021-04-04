@@ -1,5 +1,5 @@
-// スライダーライブラリ Swiper.js
 var init = function () {
+    // スライダーライブラリ Swiper.js
     new Swiper('.swiper-container', {
         loop: false,
         watchOverflow: false,
@@ -13,6 +13,13 @@ var init = function () {
             nextEl: '.swiper-button-next'
         },
     });
+
+    // three.js
+    const $canvas = document.querySelector('.canvas'),
+        width = 100,
+        height = 100;
+    const scene = new THREE.Scene();
+
 }
 
 document.addEventListener('DOMContentLoaded', init);
