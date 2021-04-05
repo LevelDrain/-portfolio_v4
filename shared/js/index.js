@@ -1,4 +1,6 @@
-var init = function () {
+import threeObj from './threeObj.js';
+
+const init = () => {
     // スライダーライブラリ Swiper.js
     new Swiper('.swiper-container', {
         loop: false,
@@ -14,12 +16,7 @@ var init = function () {
         },
     });
 
-    // three.js
-    const $canvas = document.querySelector('.canvas'),
-        width = 100,
-        height = 100;
-    const scene = new THREE.Scene();
-
+    threeObj.drawThreejs();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+onload = init;

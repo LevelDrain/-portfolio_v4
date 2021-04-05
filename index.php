@@ -41,14 +41,15 @@
     </header>
 
     <main class="l-main">
-        <section class="p-mainVisual">
-            <div class="p-mainVisual--img">
-                <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">
-                <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">
-                <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">
-            </div>
-        </section>
+        <!--        <section class="p-mainVisual">-->
+        <!--            <div class="p-mainVisual--img">-->
+        <!--                <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">-->
+        <!--                <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">-->
+        <!--                <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">-->
+        <!--            </div>-->
+        <!--        </section>-->
 
+        <!-- canvasテスト用 -->
         <section class="p-mainVisual">
             <div class="p-mainVisual--img">
                 <canvas class="canvas"></canvas>
@@ -272,7 +273,7 @@
 <script src="./shared/js/vendor/lity.min.js"></script>
 <script src="./shared/js/vendor/swiper-bundle.min.js"></script>
 <script src="./shared/js/vendor/three.min.js"></script>
-<script src="./shared/js/index.js"></script>
+<script src="./shared/js/index.js" type="module"></script>
 </body>
 
 </html>
