@@ -1,64 +1,95 @@
-import '../../shared/js/vendor/OrbitControls.js';
-
 // threeObj.js
-const drawThreejs = (array, offset) => {
-    const $canvas = document.querySelector('.canvas'),
-        width = $canvas.clientWidth,
-        height = $canvas.clientHeight;
+let scene, camera, renderer, cloudParticles = [], flash;
 
-    if ($canvas.width !== width || $canvas.height !== height) {
-        // サイズが違っていたら、描画バッファーのサイズを表示サイズと同じサイズに合わせる。
-        $canvas.width = width;
-        $canvas.height = height;
-    }
+const drawThreejs = () => {
+    const $canvas = document.querySelector('.l-bgThreejs'),
+        width = window.innerWidth,
+        height = window.innerHeight;
 
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 2000);
-    camera.position.z = 20;
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(60, width / height, 1, 2000);
+    camera.position.z = 1;
+    camera.rotation.x = 1.16;
+    camera.rotation.y = -0.12;
+    camera.rotation.z = 0.27;
 
-    const renderer = new THREE.WebGLRenderer({
-        canvas: $canvas
-    });
+    let ambient = new THREE.AmbientLight(0x555555);
+    scene.add(ambient);
 
-    const loader = new THREE.TextureLoader();
+    let directionLight = new THREE.DirectionalLight(0xffeedd);
+    directionLight.position.set([0, 0, 1]);
+    scene.add(directionLight);
 
-    // const geometry = new THREE.BoxGeometry(1, 1, 1);
-    // const material = new THREE.MeshToonMaterial({color: 0xf066aa});
-    // const cube = new THREE.Mesh(geometry, material);
-    // scene.add(cube);
+    flash = new THREE.PointLight(0x062d89, 30, 500, 1.7);
+    flash.position.set([200, 300, 100]);
+    scene.add(flash);
 
-    const magicCircle = new THREE.Mesh(
-        new THREE.CircleGeometry(8, 32),
-        new THREE.MeshBasicMaterial({
-            map: loader.load('./img/img_marchosias.png'),
-            side: THREE.DoubleSide,
-            transparent: true
-        })
-    );
-    magicCircle.rotation.x = -Math.PI / 2.5;
-    scene.add(magicCircle);
-
-    const light = new THREE.DirectionalLight(0xffffff);
-    light.intensity = 1;
-    light.position.set([1, 1, 1]);
-    scene.add(light);
-
-    //デバッグ用
-    let controls = new THREE.OrbitControls(camera, $canvas);
-    controls.enableDamping = true;
-    controls.autoRotate = true;
-    controls.autoRotateSpeed = 1;
-    controls.update();
+    // renderer = new THREE.WebGLRenderer();
+    renderer = new THREE.WebGLRenderer();
+    scene.fog = new THREE.FogExp2(0x11111f, 0.002);
+    renderer.setClearColor(scene.fog.color);
+    $canvas.appendChild(renderer.domElement);
 
     renderer.setSize(width, height);
-    renderer.setPixelRatio(devicePixelRatio);
-    const tick = () => {
-        // cube.rotation.x += 0.01;
-        // cube.rotation.y += 0.01;
-        renderer.render(scene, camera);
-        requestAnimationFrame(tick);
+
+    let loader = new THREE.TextureLoader();
+    loader.load('./img/smoke-1.png', (texture) => {
+        let cloudGeo = new THREE.PlaneBufferGeometry(500, 500);
+        let cloudMaterial = new THREE.MeshLambertMaterial({
+            map: texture,
+            transparent: true
+        });
+
+        for (let p = 0; p < 25; p++) {
+            let cloud = new THREE.Mesh(cloudGeo, cloudMaterial);
+            cloud.position.set(
+                Math.random() * 800 - 400,
+                500,
+                Math.random() * 500 - 450
+            );
+            cloud.rotation.x = 1.16;
+            cloud.rotation.y = -0.12;
+            cloud.rotation.z = Math.random() * 360;
+            cloud.material.opacity = 0.6;
+            cloudParticles.push(cloud);
+            scene.add(cloud);
+        }
+        animate();
+    });
+
+    onResize();
+    window.addEventListener('resize', onResize);
+}
+
+const animate = () => {
+    cloudParticles.forEach(p => {
+        p.rotation.z = -0.002;
+    });
+
+    if (Math.random() > 0.93 || flash.power > 100) {
+        if (flash.power > 100) {
+            flash.position.set(
+                Math.random() * 400,
+                300 + Math.random() * 200,
+                100
+            );
+        }
+        flash.power = 50 + Math.random() * 500;
     }
-    tick();
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+}
+
+// 自動リサイズ
+const onResize = () => {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(width, height);
+
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
 }
 
 export default {
