@@ -16,20 +16,20 @@ const drawThreejs = () => {
     let ambient = new THREE.AmbientLight(0x555555);
     scene.add(ambient);
 
-    let directionLight = new THREE.DirectionalLight(0xffeedd);
+    let directionLight = new THREE.DirectionalLight(0xffffff);
     directionLight.position.set([0, 0, 1]);
     scene.add(directionLight);
 
-    flash = new THREE.PointLight(0x062d89, 30, 500, 1.7);
+    flash = new THREE.PointLight(0x6b29a3, 30, 500, 1.7);
     flash.position.set([200, 300, 100]);
     scene.add(flash);
-
-    // renderer = new THREE.WebGLRenderer();
+    
     renderer = new THREE.WebGLRenderer();
-    scene.fog = new THREE.FogExp2(0x11111f, 0.002);
+    scene.fog = new THREE.FogExp2(0x0b0125, 0.002);
     renderer.setClearColor(scene.fog.color);
     $canvas.appendChild(renderer.domElement);
 
+    renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
 
     let loader = new THREE.TextureLoader();

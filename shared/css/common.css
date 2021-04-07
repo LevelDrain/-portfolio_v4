@@ -174,9 +174,9 @@ html {
 
 body {
     height: 100%;
-    color: #000;
+    color: #fff;
     text-rendering: optimizeLegibility;
-    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif;
+    font-family: 'Noto Serif JP', serif;
     font-size: 14px;
     font-weight: bold;
     font-feature-settings: 'palt';
@@ -278,6 +278,7 @@ a:hover {
   Base layout
 ----------------------------------------------- */
 .l-header {
+    position: fixed;
     width: 100%;
     padding: .8rem .75rem;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -296,7 +297,6 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .l-header {
-        position: fixed;
         padding: .8rem 0;
     }
 }
@@ -344,7 +344,7 @@ a:hover {
 .c-heading {
     line-height: 1.75;
     text-align: left;
-    /*margin-top: 1.25rem;*/
+    margin-top: 1.25rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -446,10 +446,10 @@ a:hover {
 
 /* Main visual */
 .p-mainVisual {
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     width: 100%;
-    margin: 0 auto 3rem;
+    margin: 0 auto;
 }
 
 .p-mainVisual--pc {
@@ -473,7 +473,9 @@ a:hover {
 
 /* PR point */
 .p-pr {
-    margin: 0 auto 3rem;
+    padding: 3rem 0;
+    margin: 0 auto;
+    background: #000;
 }
 
 .p-pr .c-card {
@@ -482,7 +484,6 @@ a:hover {
 
 /* Pick Up */
 .p-pickup {
-    background: #000;
 }
 
 .p-pickup--container {
@@ -494,7 +495,6 @@ a:hover {
 
 /* portfolio */
 .p-portfolio {
-    background: #000;
 }
 
 

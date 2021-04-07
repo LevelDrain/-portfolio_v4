@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>上島水準 Level Ueshima | ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./shared/css/vendor/lity.min.css">
     <link rel="stylesheet" href="./shared/css/vendor/swiper-bundle.min.css">
     <link rel="stylesheet" href="./shared/css/common.css">
@@ -49,15 +51,18 @@
 
     <section class="p-pr">
         <div class="l-container">
-            <p class="c-heading">デザインスキル日々向上しています。ここにアピールポイントが入ります……</p>
+            <h2 class="c-title">受け継がれた想いと技術<br>人情派メディアアーティスト</h2>
+            <p class="c-heading">
+                真面目で実直な在り方に惹かれ、KCGの元フロントエンドエンジニアに師事。<br>
+                JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して日々研鑽に励んでおります。<br>
+                日本古来の美意識だけでなく、ゲームや映画といったメディアアートの感性も大切にしています。<br>
+                また、見た人に高級感と感動が体験できるようなデザインを心がけ、制作を行っております。
+            </p>
         </div>
     </section>
 
     <section class="p-pickup">
         <div class="l-container">
-            <h2 class="c-title">制作実績</h2>
-            <h3 class="c-title">Pick Up</h3>
-
             <div class="p-pickup--container">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -91,7 +96,6 @@
 
     <section class="p-portfolio">
         <div class="l-container">
-            <h3 class="c-title">フロントエンド作品</h3>
             <div class="l-flex--pc l-flex--tab">
                 <div class="c-card">
                     <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
@@ -122,105 +126,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="l-container">
-            <h3 class="c-title">バナーなどデザイン作品</h3>
-            <div class="l-flex--pc l-flex--tab">
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル1</h5>
-                    <div class="c-card--body">
-                        <p class="c -card--text">
-                            CLIPSTUDIO
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル2</h5>
-                    <div class="c-card--body">
-                        <p class="c-card--text">
-                            Photoshop
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル3</h5>
-                    <div class="c-card--body">
-                        <p class="c-card--text">
-                            Photoshop
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="l-container">
-            <h3 class="c-title">前田デザイン室活動</h3>
-            <!-- note埋め込み -->
-            <div class="l-flex--pc l-flex--tab">
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル1</h5>
-                    <div class="c-card--body">
-                        <p class="c -card--text">
-                            note埋め込み予定
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル2</h5>
-                    <div class="c-card--body">
-                        <p class="c-card--text">
-                            note埋め込み予定
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル3</h5>
-                    <div class="c-card--body">
-                        <p class="c-card--text">
-                            note埋め込み予定
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="l-container">
-            <h3 class="c-title">バックエンド作品</h3>
-            <div class="l-flex--pc l-flex--tab">
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル1</h5>
-                    <div class="c-card--body">
-                        <p class="c -card--text">
-                            PHP
-                        </p>
-                    </div>
-                </div>
-                <div class="c-card">
-                    <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                    <h5 class="c-card--title">タイトル2</h5>
-                    <div class="c-card--body">
-                        <p class="c-card--text">
-                            PHP
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </section>
-
-    <!--    <secrion class="p-pr">-->
-    <!--        <div class="l-flex--pc l-flex--tab">-->
-    <!--        </div>-->
-    <!--    </secrion>-->
-
 </main>
 
 <footer class="l-footer">
