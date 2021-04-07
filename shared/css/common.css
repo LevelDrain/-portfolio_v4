@@ -7,174 +7,180 @@
 /*
   Reset
 ----------------------------------------------- */
-* {
-    font-size: 100%;
-}
-
-html {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
 }
 
 body {
-    height: 100%;
-    color: #fff;
-    text-rendering: optimizeLegibility;
-    font-family: 'Noto Sans JP', 'Josefin Sans', "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif, serif;
-    font-size: 15px;
-    line-height: 1.7;
-    margin: 0;
-    padding: 0;
+    line-height: 1;
 }
 
-a, a:link {
-    color: inherit;
-    cursor: pointer;
-    backface-visibility: hidden;
-    text-decoration: none;
-    transition: color .3s ease;
-}
-
-a:hover {
-    opacity: .7;
-}
-
-address, cite, dfn, em, i, var {
-    font-style: normal;
-}
-
-button {
-    background: #aaa;
-    cursor: pointer;
-}
-
-br {
-    letter-spacing: 0;
-}
-
-button, input[type="button"], input[type="image"], input[type="submit"] {
-    -webkit-appearance: none;
-    border: 0;
-    border-radius: 0;
-    box-sizing: content-box;
-    color: inherit;
-    cursor: pointer;
-    font-size: inherit;
-    padding: 0;
-}
-
-code {
-    font-family: inherit;
-}
-
-blockquote {
-    content: none;
-}
-
-blockquote, dl, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, legend, menu, ol, p, ul {
-    -webkit-margin-after: 0;
-    -webkit-margin-before: 0;
-    -webkit-margin-end: 0;
-    -webkit-margin-start: 0;
-    -webkit-padding-after: 0;
-    -webkit-padding-before: 0;
-    -webkit-padding-end: 0;
-    -webkit-padding-start: 0;
-}
-
-kbd, samp {
-    font-family: inherit;
-}
-
-keygen {
-    border-radius: 0;
-    color: inherit;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: inherit;
-}
-
-ins {
-    text-decoration: none;
-}
-
-hr {
-    border-top: 1px solid #aaa;
-}
-
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-pre {
-    font-family: inherit;
+blockquote,
+q {
+    quotes: none;
 }
 
-q:after, q:before {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
     content: none;
 }
 
-ruby, rt {
-    font-size: inherit;
-    line-height: inherit;
-}
-
-select {
-    background: #aaa;
-    border: 0;
-    border-radius: 0;
-    box-sizing: content-box;
-    color: inherit;
-}
-
-small {
-    font-size: inherit;
-}
-
 table {
-    border: 1px solid #aaa;
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-tr {
-    border-bottom: 1px solid #aaa;
-}
-
-th, td {
-    border-left: 1px solid #aaa;
-}
-
-address, article, aside, blockquote, details, summary, div, dl, dt, dd, fieldset, figcaption, figure, form, header, hgroup, h1, h2, h3, h4, h5, h6, hr, legend, main, menu, nav, ol, optgroup, p, pre, rt, section, option, ul {
-    background: transparent;
-    border: 0;
-    font-style: normal;
-    font-weight: normal;
-    margin: 0;
+button,
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
     padding: 0;
-    vertical-align: baseline;
 }
 
-a, abbr, area, audio, b, base, bdi, bdo, br, canvas, cite, code, del, dfn, em, embed, footer, i, iframe, img, ins, kbd, label, mark, menu, noscript, object, output, q, ruby, s, samp, small, source, span, strong, sub, sup, time, u, var, video, track, wbr {
-    background: transparent;
-    border: 0;
-    font-weight: inherit;
-    vertical-align: top;
+/*
+  Base
+-----------------------------------------------------*/
+*,
+:before,
+:after {
+    box-sizing: border-box;
 }
 
-button, keygen, input, textarea, meter, progress, select {
-    font-family: inherit;
-    vertical-align: top;
+html {
+    box-sizing: border-box;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 160px;
 }
 
-img {
-    -webkit-user-drag: none;
-}
-
-mark {
-    background: linear-gradient(transparent 60%, #dbf15d90 60%);
-    color: inherit;
+body {
+    height: 100%;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-feature-settings: 'palt';
+    letter-spacing: 1.5px;
 }
 
 
@@ -189,11 +195,11 @@ img {
 }
 
 a {
-    color: inherit;
-    cursor: pointer;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    transition: all .3s ease;
     text-decoration: none;
-    transition: color .3s ease;
+    color: inherit;
 }
 
 a:hover {
@@ -297,7 +303,7 @@ a:hover {
 
 .l-main {
     width: 100%;
-    max-width: 1100px;
+    /*max-width: 1100px;*/
     margin: 0 auto;
 }
 
