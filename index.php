@@ -43,11 +43,8 @@
 
 <main class="l-main">
     <section class="p-mainVisual">
-        <div class="p-mainVisual--img">
-            <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">
-            <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">
-            <img class="p-mainVisual--sp" src="./img/img_top_copy.png" alt="">
-        </div>
+        <img class="p-mainVisual--pc" src="./img/img_top_pc.png" alt="">
+        <img class="p-mainVisual--sp " src="./img/img_top_sp.png" alt="">
     </section>
 
     <section class="p-pr">
@@ -219,39 +216,10 @@
 
     </section>
 
-    <secrion class="p-pr">
-        <div class="l-flex--pc l-flex--tab">
-            <div class="c-card">
-                <h5 class="c-card--title">デザインからアニメーションへの書き起こし</h5>
-                <img class="c-card--img" src="./img/img_pr1.gif" alt="">
-                <div class="c-card--body">
-                    <p class="c-card--text">
-                        デザイナーやクライアントの意図を汲み取り、アニメーションの実装を心がけます。
-                    </p>
-                </div>
-            </div>
-
-            <div class="c-card">
-                <h5 class="c-card--title">メンテナンスの簡略化</h5>
-                <img class="c-card--img" src="./img/img_pr2.png" alt="">
-                <div class="c-card--body">
-                    <p class="c-card--text">
-                        PHPでデータベースやCSVなどからデータを呼び出せるようにし、リソースを管理しやすくします。
-                    </p>
-                </div>
-            </div>
-
-            <div class="c-card">
-                <h5 class="c-card--title">コーディングからデザインまで</h5>
-                <img class="c-card--img" src="./img/img_pr3.png" alt="">
-                <div class="c-card--body">
-                    <p class="c-card--text">
-                        インタラクションデザイナーを目指し、日々コーディングだけでなくデザインスキルの向上にも努めています。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </secrion>
+    <!--    <secrion class="p-pr">-->
+    <!--        <div class="l-flex--pc l-flex--tab">-->
+    <!--        </div>-->
+    <!--    </secrion>-->
 
 </main>
 
