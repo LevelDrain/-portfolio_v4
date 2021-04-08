@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="p-pickup">
+        <section class="p-pickup section-fadein">
             <div class="l-container">
                 <div class="p-pickup--container">
                     <div class="swiper-container">
@@ -98,7 +98,7 @@
             </div>
         </section>
 
-        <section class="p-portfolio">
+        <section class="p-portfolio section-fadein">
             <div class="l-container">
                 <div class="l-flex--pc l-flex--tab">
                     <div class="c-card">
@@ -141,7 +141,6 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="./shared/js/vendor/lazysizes.min.js"></script>
 <script src="./shared/js/vendor/lity.min.js"></script>
 <script src="./shared/js/vendor/animsition.min.js"></script>
 <script src="./shared/js/vendor/swiper-bundle.min.js"></script>
