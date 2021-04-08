@@ -1,0 +1,42 @@
+{
+    "name": "threejs_playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve",
+        "watch": "webpack --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LevelDrain/threejs_playground.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LevelDrain/threejs_playground/issues"
+    },
+    "homepage": "https://github.com/LevelDrain/threejs_playground#readme",
+    "devDependencies": {
+        "@babel/core": "^7.13.10",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.13.12",
+        "babel-loader": "^8.2.2",
+        "core-js": "^3.9.1",
+        "eslint": "^7.22.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "prettier": "^2.2.1",
+        "webpack": "^5.28.0",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "private": true,
+    "dependencies": {
+        "three": "^0.126.1",
+        "three-orbitcontrols": "^2.110.3"
+    }
+}

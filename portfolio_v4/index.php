@@ -56,7 +56,8 @@
                 <h2 class="c-title">受け継がれた想いと技術<br>人情派メディアアーティスト</h2>
                 <p class="c-heading">
                     真面目で実直な在り方に惹かれ、KCGの元フロントエンドエンジニアに師事。<br>
-                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して日々研鑽に励んでおります。<br>
+                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して
+                    日々コーディングや、デザインサークルの活動に励んでおります。<br>
                     日本古来の美意識だけでなく、ゲームや映画といったメディアアートの感性も大切にしています。<br>
                     また、見た人に高級感と感動が体験できるようなデザインを心がけ、制作を行っております。
                 </p>
@@ -144,8 +145,7 @@
 <script src="./shared/js/vendor/lity.min.js"></script>
 <script src="./shared/js/vendor/animsition.min.js"></script>
 <script src="./shared/js/vendor/swiper-bundle.min.js"></script>
-<script src="./shared/js/vendor/three.min.js"></script>
-<script src="./shared/js/index.js" type="module"></script>
+<script src="./shared/js/main.js"></script>
 </body>
 
 </html>

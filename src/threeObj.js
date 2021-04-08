@@ -1,3 +1,6 @@
+import * as THREE from 'three';
+import 'core-js'; // IEで動作するようにポリフィルを導入
+
 // threeObj.js
 let scene, camera, renderer, cloudParticles = [], flash;
 
