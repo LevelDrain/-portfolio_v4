@@ -18,6 +18,12 @@ const animsition = () => {
     });
 }
 
+const accordion = () => {
+    $('.c-accordion--parent').on('click', () => {
+        $('.c-accordion--child').slideToggle();
+    });
+}
+
 export default {
-    animsition
+    animsition, accordion
 }

@@ -99,34 +99,51 @@
             </div>
         </section>
 
-        <section class="p-portfolio section-fadein">
+        <section class="p-portfolio">
             <div class="l-container">
-                <div class="l-flex--pc l-flex--tab">
-                    <div class="c-card">
-                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                        <h5 class="c-card--title">タイトル1</h5>
-                        <div class="c-card--body">
-                            <p class="c -card--text">
-                                HTML5 / CSS3 / JavaScript
-                            </p>
-                        </div>
+                <div class="c-accordion">
+                    <div class="c-accordion--parent">
+                        <h2 class="c-title">Webページ制作</h2>
                     </div>
-                    <div class="c-card">
-                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                        <h5 class="c-card--title">タイトル2</h5>
-                        <div class="c-card--body">
-                            <p class="c-card--text">
-                                Vue.js
-                            </p>
-                        </div>
-                    </div>
-                    <div class="c-card">
-                        <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
-                        <h5 class="c-card--title">タイトル3</h5>
-                        <div class="c-card--body">
-                            <p class="c-card--text">
-                                WordPress + デザイン
-                            </p>
+
+                    <div class="c-accordion--child">
+                        <div class="l-flex--pc">
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル1</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル2</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル3</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル3</h5>
+                                    <p>
+                                        チョコボ
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

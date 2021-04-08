@@ -257,13 +257,6 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-    .l-flex--tab {
-        display: flex;
-        align-items: start;
-    }
-}
-
-@media screen and (min-width: 1080px) {
     .l-flex--pc {
         display: flex;
         align-items: start;
@@ -377,29 +370,49 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 0;
+    width: 100%;
     word-wrap: break-word;
-    /*background: #000 border-box;*/
-    /*border: 1px solid #000;*/
+    margin-bottom: 3rem;
 }
 
 .c-card--body {
     flex: 1 1 auto;
-    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .c-card--title {
-    padding-top: 1rem;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
 }
 
 .c-card--img {
     width: 100%;
 }
 
-.c-card--text {
-    margin-top: 0;
-    margin-bottom: 1rem;
+/* accordion（スマホのみ対応） */
+.c-accordion {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.c-accordion--parent {
+    pointer-events: all;
+    text-align: center;
+    cursor: pointer;
+}
+
+.c-accordion--child {
+    display: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .c-accordion--parent {
+        pointer-events: none;
+    }
+
+    .c-accordion--child {
+        display: block;
+    }
 }
 
 /* SNS */
@@ -479,10 +492,6 @@ a:hover {
     background: #000;
 }
 
-.p-pr .c-card {
-    padding: 0 .5rem;
-}
-
 /* Pick Up */
 .p-pickup {
 }
@@ -495,9 +504,17 @@ a:hover {
 }
 
 /* portfolio */
-.p-portfolio {
+.p-portfolio .l-flex--pc {
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+    .p-portfolio .c-card {
+        width: 30%;
+        margin-bottom: 4rem;
+    }
+}
 
 /* Footer */
 .p-footer--writer {
