@@ -141,10 +141,6 @@
     </footer>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="./shared/js/vendor/lity.min.js"></script>
-<script src="./shared/js/vendor/animsition.min.js"></script>
-<script src="./shared/js/vendor/swiper-bundle.min.js"></script>
 <script src="./shared/js/main.js"></script>
 </body>
 
