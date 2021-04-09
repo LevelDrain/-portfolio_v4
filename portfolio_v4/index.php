@@ -56,16 +56,15 @@
                 <h2 class="c-title">受け継がれた想いと技術<br>人情派メディアアーティスト</h2>
                 <p class="c-heading">
                     真面目で実直な在り方に惹かれ、KCGの元フロントエンドエンジニアに師事。<br>
-                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して
-                    日々コーディングや、デザインサークルの活動に励んでおります。<br>
+                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して日々コーディングや、デザインサークルの活動に励んでおります。<br>
                     日本古来の美意識だけでなく、ゲームや映画といったメディアアートの感性も大切にしています。<br>
                     また、見た人に高級感と感動が体験できるようなデザインを心がけ、制作を行っております。
                 </p>
             </div>
         </section>
 
-        <section class="p-pickup section-fadein">
-            <div class="l-container">
+        <section class="p-pickup">
+            <div class="l-container section-fadein">
                 <div class="p-pickup--container">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -100,7 +99,7 @@
         </section>
 
         <section class="p-portfolio">
-            <div class="l-container">
+            <div class="l-container section-fadein">
                 <div class="c-accordion">
                     <div class="c-accordion--parent">
                         <h2 class="c-title">Webページ制作</h2>
@@ -147,6 +146,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="p-profile">
+            <div class="l-container">
+                <p>チョコボ</p>
             </div>
         </section>
     </main>

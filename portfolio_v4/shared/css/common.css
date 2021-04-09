@@ -494,6 +494,8 @@ a:hover {
 
 /* Pick Up */
 .p-pickup {
+    padding: 6rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .p-pickup--container {
@@ -504,6 +506,10 @@ a:hover {
 }
 
 /* portfolio */
+.p-portfolio {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .p-portfolio .l-flex--pc {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -516,10 +522,15 @@ a:hover {
     }
 }
 
+/* profile */
+.p-profile {
+    background-color: #000;
+    padding: 1rem 0;
+}
+
 /* Footer */
 .p-footer--writer {
-    margin-top: 5rem;
-    padding: 1.25rem 0;
+    padding: 5rem 0 1.25rem;
     font-size: .75rem;
     background-color: #000;
 }
@@ -571,6 +582,10 @@ a:hover {
 
 .swiper-slide img {
     width: 100%;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: none !important;
 }
 
 /* animsition カスタマイズ */

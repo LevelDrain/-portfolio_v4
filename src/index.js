@@ -1,29 +1,27 @@
 import threeObj from './threeObj.js';
-import jQueryObj from "./jQueryObj.js";
-import Swiper from "swiper";
+import jQueryObj from './jQueryObj.js';
+import Swiper from 'swiper/bundle';
 
 const init = () => {
     jQueryObj.animsition();
     jQueryObj.accordion();
 
     // スライダーライブラリ Swiper.js
-    new Swiper('.swiper-container', {
-        loop: true,
-        watchOverflow: false,
-        direction: 'horizontal',
-        slidesPerView: 1.3,
-        breakpoints:{
-            768:{
-                slidesPerView: 3.3
-            }
+    let swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1.2,
+        breakpoints: {
+            640: {
+                slidesPerView: 3.3,
+            },
         },
+        loop: true,
+        direction: 'horizontal',
         spaceBetween: 20,
-        centerdSlides: true,
         autoplay: true
     });
 
     threeObj.drawThreejs();
-}
+};
 
 onload = init;
 
@@ -46,6 +44,6 @@ const showSection = () => {
             showElm[i].classList.remove('is-show');
         }
     }
-}
+};
 showSection();
 window.addEventListener('scroll', showSection);
