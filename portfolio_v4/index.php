@@ -21,8 +21,8 @@
     <header class="l-header">
         <div class="l-flex l-container">
             <h1 class="p-header--logo">
-                <a href="#" title="Level Ueshima">
-                    <img src="./shared/img/img_logo.svg" alt="Level Ueshima">
+                <a href="#" title="suijun ryuzingu">
+                    <img src="./shared/img/img_logo.svg" alt="水準龍神宮">
                 </a>
             </h1>
             <a class="p-header--spmenu">

@@ -7,18 +7,19 @@ const init = () => {
     jQueryObj.accordion();
 
     // スライダーライブラリ Swiper.js
-    const swiper = new Swiper('.swiper-container', {
-        loop: false,
+    new Swiper('.swiper-container', {
+        loop: true,
         watchOverflow: false,
         direction: 'horizontal',
-        slidesPerView: 'auto',
+        slidesPerView: 1.3,
+        breakpoints:{
+            768:{
+                slidesPerView: 3.3
+            }
+        },
         spaceBetween: 20,
         centerdSlides: true,
-        autoplay: false,
-        navigation: {
-            prevEl: '.swiper-button-prev',
-            nextEl: '.swiper-button-next'
-        },
+        autoplay: true
     });
 
     threeObj.drawThreejs();
