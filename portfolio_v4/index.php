@@ -21,7 +21,7 @@
     <header class="l-header">
         <div class="l-flex l-container">
             <h1 class="p-header--logo">
-                <a href="#" title="suijun ryuzingu">
+                <a href="#" title="トップへ戻る">
                     <img src="./shared/img/img_logo.svg" alt="水準龍神宮">
                 </a>
             </h1>
@@ -55,45 +55,43 @@
             <div class="l-container">
                 <h2 class="c-title">受け継がれた想いと技術<br>人情派メディアアーティスト</h2>
                 <p class="c-heading">
-                    真面目で実直な在り方に惹かれ、KCGの元フロントエンドエンジニアに師事。<br>
-                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して日々コーディングや、デザインサークルの活動に励んでおります。<br>
+                    フロントエンド技術の高さと真面目で実直な在り方に惹かれ、京都コンピュータ学院のとある講師に師事。<br>
+                    JavaScriptやThree.js、SVGといったWeb上の演出方法を習得し、インタラクティブなサイト制作を目指して日々コーディングやデザインに励んでおります。<br>
                     日本古来の美意識だけでなく、ゲームや映画といったメディアアートの感性も大切にしています。<br>
-                    また、見た人に高級感と感動が体験できるようなデザインを心がけ、制作を行っております。
+                    また、高級感と感動を届けることができるような演出を心がけ、制作を行っております。
                 </p>
             </div>
         </section>
 
         <section class="p-pickup">
-            <div class="l-container section-fadein">
-                <div class="p-pickup--container">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <!-- ここからswiperテンプレ -->
-                            <div class="swiper-slide slide-item">
-                                <a class="animsition-link" href="./articles/000/">
-                                    <img src="img/portfolio4_bunner.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide slide-item">
+            <div class="p-pickup--container section-fadein">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- ここからswiperテンプレ -->
+                        <div class="swiper-slide slide-item">
+                            <a class="animsition-link" href="./articles/000/">
                                 <img src="img/portfolio4_bunner.png" alt="">
-                            </div>
-                            <div class="swiper-slide slide-item">
-                                <img src="img/portfolio4_bunner.png" alt="">
-                            </div>
-                            <div class="swiper-slide slide-item">
-                                <img src="img/portfolio4_bunner.png" alt="">
-                            </div>
-                            <div class="swiper-slide slide-item">
-                                <img src="img/portfolio4_bunner.png" alt="">
-                            </div>
-                            <div class="swiper-slide slide-item">
-                                <img src="img/portfolio4_bunner.png" alt="">
-                            </div>
-                            <!-- テンプレ終了 -->
+                            </a>
                         </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <div class="swiper-slide slide-item">
+                            <img src="img/portfolio4_bunner.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide-item">
+                            <img src="img/portfolio4_bunner.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide-item">
+                            <img src="img/portfolio4_bunner.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide-item">
+                            <img src="img/portfolio4_bunner.png" alt="">
+                        </div>
+                        <div class="swiper-slide slide-item">
+                            <img src="img/portfolio4_bunner.png" alt="">
+                        </div>
+                        <!-- テンプレ終了 -->
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -145,13 +143,58 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="c-accordion--parent">
+                        <h2 class="c-title">前田デザイン室</h2>
+                    </div>
+
+                    <div class="c-accordion--child">
+                        <div class="l-flex--pc">
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル1</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル2</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル3</h5>
+                                    <p>
+                                        WordPress + デザイン
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="c-card">
+                                <img class="c-card--img" src="./img/portfolio4_bunner.png" alt="">
+                                <div class="c-card--body">
+                                    <h5 class="c-card--title">タイトル3</h5>
+                                    <p>
+                                        チョコボ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="p-profile">
             <div class="l-container">
-                <p>チョコボ</p>
+                <p>プロフィール記入欄</p>
             </div>
         </section>
     </main>

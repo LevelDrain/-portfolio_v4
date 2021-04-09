@@ -17,7 +17,7 @@ const drawThreejs = () => {
     camera.rotation.y = -0.12;
     camera.rotation.z = 0.27;
 
-    let ambient = new THREE.AmbientLight(0x555555);
+    let ambient = new THREE.AmbientLight(0xa3a3a3);
     scene.add(ambient);
 
     let directionLight = new THREE.DirectionalLight(0xffffff);
@@ -52,13 +52,13 @@ const drawThreejs = () => {
 
     let loader = new THREE.TextureLoader();
     loader.load('./img/smoke-1.png', (texture) => {
-        let cloudGeo = new THREE.PlaneBufferGeometry(500, 500);
+        let cloudGeo = new THREE.PlaneBufferGeometry(400, 400);
         let cloudMaterial = new THREE.MeshLambertMaterial({
             map: texture,
             transparent: true
         });
 
-        for (let p = 0; p < 25; p++) {
+        for (let p = 0; p < 30; p++) {
             let cloud = new THREE.Mesh(cloudGeo, cloudMaterial);
             cloud.position.set(
                 Math.random() * 850 - 400,
@@ -97,11 +97,11 @@ const animate = () => {
         if (flash.power < 100) {
             flash.position.set(
                 Math.random() * 400,
-                300 + Math.random() * 500,
+                300 + Math.random() * 600,
                 100
             );
         }
-        flash.power = 50 + Math.random() * 400;
+        flash.power = 50 + Math.random() * 200;
     }
 
     renderer.render(scene, camera);

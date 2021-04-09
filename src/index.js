@@ -22,7 +22,6 @@ const init = () => {
 
     threeObj.drawThreejs();
 };
-
 onload = init;
 
 // セクションスライドイン

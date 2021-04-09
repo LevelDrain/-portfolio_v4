@@ -19,10 +19,21 @@ const animsition = () => {
 }
 
 const accordion = () => {
-    $('.c-accordion--parent').on('click', () => {
-        $('.c-accordion--child').slideToggle();
+    $('.c-accordion--parent').on('click', function () {
+        $(this).next().slideToggle();
+        $(this).toggleClass('open');
+        $('.c-accordion--parent').not(this).removeClass('open');
     });
 }
+
+// リサイズでリストが消えたままにならないようにする
+$(window).resize(function () {
+    if (window.matchMedia('(max-width: 767px)').matches) {
+        $('.c-accordion--child').css('display', 'none');//スマホ処理
+    } else if (window.matchMedia('(min-width:768px)').matches) {
+        $('.c-accordion--child').css('display', 'block');//PC処理
+    }
+});
 
 export default {
     animsition, accordion
