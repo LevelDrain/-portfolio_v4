@@ -301,7 +301,6 @@ a:hover {
     text-align: center;
     line-height: 1.75;
     letter-spacing: 0.15em;
-    padding-left: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -471,7 +470,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .p-mainVisual {
-        padding-top: 1rem;
+        padding-top: 0;
     }
 
     .p-mainVisual--pc {
@@ -491,7 +490,7 @@ a:hover {
     background: #000;
 }
 
-.p-pr .l-container{
+.p-pr .l-container {
     max-width: 1040px;
 }
 
@@ -538,6 +537,7 @@ a:hover {
 
 .p-portfolio .c-title {
     font-size: 1rem;
+    padding-left: 1rem;
     margin-bottom: 3rem;
     text-align: left;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
@@ -566,7 +566,62 @@ a:hover {
 /* profile */
 .p-profile {
     background-color: #000;
-    padding: 1rem 0;
+    padding: 3rem 0;
+}
+
+.p-profile .l-flex {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-profile .c-title {
+    color: #cc9a1d;
+    padding: .5rem 0;
+}
+
+.p-profile .p-profile--img {
+    width: 150px;
+}
+
+.p-profile .p-profile--name {
+    color: #cc9a1d;
+}
+
+.p-profile .c-heading {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .p-profile {
+        background-color: #000;
+        padding: 5rem 0;
+    }
+
+    .p-profile .l-flex {
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .p-profile .p-profile--item {
+        margin-right: 5rem;
+    }
+
+    .p-profile .p-profile--img {
+        width: 200px;
+    }
+
+    .p-profile .p-profile--name {
+        font-size: 1.3rem;
+    }
+
+    .p-profile .c-heading {
+        margin-top: 0;
+    }
+
+    .p-profile .text {
+        max-width: 50%;
+    }
 }
 
 /* Footer */

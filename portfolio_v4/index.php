@@ -52,7 +52,7 @@
         </section>
 
         <section class="p-pr">
-            <div class="l-container">
+            <div class="l-container section-fadein">
                 <h2 class="c-title">受け継がれた想いと技術<br>人情派メディアアーティスト</h2>
                 <p class="c-heading">
                     フロントエンド技術の高さと真面目で実直な在り方に惹かれ、京都コンピュータ学院のとある講師に師事。<br>
@@ -97,7 +97,7 @@
         </section>
 
         <section class="p-portfolio">
-            <div class="l-container section-fadein">
+            <div class="l-container">
                 <div class="c-accordion">
                     <div class="c-accordion--parent">
                         <h2 class="c-title">Webページ制作</h2>
@@ -193,8 +193,24 @@
         </section>
 
         <section class="p-profile">
-            <div class="l-container">
-                <p>プロフィール記入欄</p>
+            <div class="l-container section-fadein">
+                <div class="l-flex">
+                    <div class="p-profile--item">
+                        <img class="p-profile--img" src="./img/my_icon.png" alt="">
+                        <p class="c-title">佐村木 友紀</p>
+                        <p class="p-profile--name">Yuki Samuraki</p>
+                    </div>
+                    <div class="text">
+                        <p class="c-heading">
+                            フロントエンドエンジニアを目指す傍ら、前田デザイン室にて『上島水準（Level Ueshima）』としてアート活動を行う。<br>
+                            <br>
+                            奈良先端科学技術大学院大学バイオサイエンス研究科修了後、統計学のバックグラウンドを活かしソーシャルゲームのプランナーとして勤務。<br>
+                            その後、ITエンジニアとしてのスキルの必要性を痛感したため、京都コンピュータ学院メディア情報学科入学を決意。<br>
+                            <br>
+                            UnrealEngineやUnity、Three.jsなどのメディアアートに出会い、インタラクションデザインを得意とするフロントエンド講師に師事した。
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
