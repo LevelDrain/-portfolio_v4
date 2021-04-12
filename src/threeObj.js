@@ -51,7 +51,7 @@ const drawThreejs = () => {
     // scene.add(rain);
 
     let loader = new THREE.TextureLoader();
-    loader.load('./img/smoke-1.png', (texture) => {
+    loader.load('./shared/img/smoke-1.png', (texture) => {
         let cloudGeo = new THREE.PlaneBufferGeometry(400, 400);
         let cloudMaterial = new THREE.MeshLambertMaterial({
             map: texture,

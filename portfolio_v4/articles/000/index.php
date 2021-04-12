@@ -32,7 +32,7 @@
         <nav class="p-header--nav">
             <ul class="l-flex">
                 <li class="p-header--menu"><a href="/" itemprop="url">Top</a></li>
-                <li class="p-header--menu"><a href="/profile/" itemprop="url">Profile</a></li>
+                <li class="p-header--menu"><a href="/#Profile" itemprop="url">Profile</a></li>
                 <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
             </ul>
             <!--                <ul class="nav-sns">-->
