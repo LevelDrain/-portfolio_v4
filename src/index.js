@@ -5,6 +5,7 @@ import Swiper from 'swiper/bundle';
 const init = () => {
     jQueryObj.animsition();
     jQueryObj.accordion();
+    jQueryObj.topbtn();
 
     // スライダーライブラリ Swiper.js
     let swiper = new Swiper('.swiper-container', {

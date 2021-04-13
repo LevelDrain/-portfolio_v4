@@ -293,6 +293,107 @@ a:hover {
   Component
 ----------------------------------------------- */
 
+/* sp menu */
+.c-spmenu--btn {
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    z-index: 110;
+}
+
+.c-spmenu--btn span,
+.c-spmenu--btn span::before,
+.c-spmenu--btn span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #cc9a1d;
+    transition: .2s;
+}
+
+.c-spmenu--btn span::before {
+    bottom: 8px;
+}
+
+.c-spmenu--btn span::after {
+    top: 8px;
+}
+
+#MenuspClick:checked ~ .c-spmenu--btn span {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#MenuspClick:checked ~ .c-spmenu--btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+#MenuspClick:checked ~ .c-spmenu--btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#MenuspClick {
+    display: none;
+}
+
+.c-spmenu--content {
+    width: 100vw;
+    height: 110vh;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background-color: #000;
+    z-index: 105;
+    transition: all 0.5s;
+}
+
+#MenuspClick:checked ~ .c-spmenu--content {
+    left: 0;
+}
+
+.c-spmenu--content ul {
+    padding: 70px 10px 0;
+}
+
+.c-spmenu--content ul li {
+    border-bottom: solid 1px #cc9a1d;
+    list-style: none;
+}
+
+.c-spmenu--content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+
+.c-spmenu--content ul li a::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #cc9a1d;
+    border-right: solid 2px #cc9a1d;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
 /* title */
 .c-title {
     position: relative;
@@ -413,16 +514,25 @@ a:hover {
     }
 }
 
-/* SNS */
-/*.c-sns--wrap {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
+/* Top Button */
+#TopBtn {
+    position: fixed;
+    right: 0.3rem;
+    bottom: 0.3rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 
-/*.c-sns--item {*/
-/*    display: block;*/
-/*    width: 2.5rem;*/
-/*}*/
+@media screen and (min-width: 768px) {
+    #TopBtn {
+        right: 2rem;
+        bottom: 2rem;
+    }
+}
 
 /*
   Project
@@ -436,37 +546,8 @@ a:hover {
     display: none;
 }
 
-/* sp menu */
 .p-header--spmenu {
-    position: fixed;
-    right: 0;
-    top: 0;
-    display: flex;
-    width: 60px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    pointer-events: all;
-}
-
-.p-header--spmenu span,
-.p-header--spmenu span::before,
-.p-header--spmenu span::after {
-    content: '';
-    position: absolute;
     display: block;
-    height: 1px;
-    width: 25px;
-    border-radius: 3px;
-    background-color: #cc9a1d;
-}
-
-.p-header--spmenu span::before {
-    bottom: 8px;
-}
-
-.p-header--spmenu span::after {
-    top: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -480,6 +561,10 @@ a:hover {
 
     .p-header--menu {
         margin-left: 1.5rem;
+    }
+
+    .p-header--spmenu {
+        display: none;
     }
 }
 
@@ -496,10 +581,6 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-    .p-mainVisual {
-        padding-top: 0;
-    }
-
     .p-mainVisual--pc {
         display: block;
         width: 100%;
@@ -507,6 +588,19 @@ a:hover {
 
     .p-mainVisual--sp {
         display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+    /* タブレット用メインビジュアル位置調整 */
+    .p-mainVisual {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .p-mainVisual {
+        padding-top: 0;
     }
 }
 
@@ -535,7 +629,7 @@ a:hover {
     }
 
     .p-pr .c-heading {
-        padding: 0 5%;
+        text-align: center;
     }
 }
 
@@ -622,7 +716,11 @@ a:hover {
     color: #cc9a1d;
 }
 
-@media screen and (min-width: 768px) {
+.p-profile .heading--pc {
+    margin-top: 2.5rem;
+}
+
+@media screen and (min-width: 1040px) {
     .p-profile {
         background-color: #000;
         padding: 5rem 0;

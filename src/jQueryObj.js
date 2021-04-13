@@ -26,6 +26,12 @@ const accordion = () => {
     });
 }
 
+const topbtn = () => {
+    $('#TopBtn').click(() => {
+        $('html,body').animate({scrollTop: 0}, 500);
+    });
+}
+
 // リサイズでリストが消えたままにならないようにする
 $(window).resize(function () {
     if (window.matchMedia('(max-width: 767px)').matches) {
@@ -36,5 +42,5 @@ $(window).resize(function () {
 });
 
 export default {
-    animsition, accordion
+    animsition, accordion, topbtn
 }
