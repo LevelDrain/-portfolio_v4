@@ -37,32 +37,36 @@
             </div>
         </section>
 
+        <?php
+        //CSV読み込み
+        $filepath = './shared/csv/system.csv';
+        $record = [];
+        if (($handle = fopen($filepath, 'r')) !== false) {
+            while (($data = fgetcsv($handle, 1000, ',')) !== false) {
+                array_unshift($record, $data); //下にある方が先になるよう配列追加
+            }
+        }
+        fclose($handle);
+        ?>
+
         <section class="p-pickup">
             <div class="p-pickup--container section-fadein">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <!-- ここからswiperテンプレ -->
-                        <div class="swiper-slide slide-item">
-                            <a class="animsition-link" href="./articles/000/">
-                                <img src="shared/img/portfolio4_bunner.png" alt="">
-                            </a>
-                        </div>
-                        <div class="swiper-slide slide-item">
-                            <img src="shared/img/portfolio4_bunner.png" alt="">
-                        </div>
-                        <div class="swiper-slide slide-item">
-                            <img src="shared/img/portfolio4_bunner.png" alt="">
-                        </div>
-                        <div class="swiper-slide slide-item">
-                            <img src="shared/img/portfolio4_bunner.png" alt="">
-                        </div>
-                        <div class="swiper-slide slide-item">
-                            <img src="shared/img/portfolio4_bunner.png" alt="">
-                        </div>
-                        <div class="swiper-slide slide-item">
-                            <img src="shared/img/portfolio4_bunner.png" alt="">
-                        </div>
-                        <!-- テンプレ終了 -->
+                        <!-- ここからswiper -->
+                        <?php
+                        foreach ($record as $id => $contents):
+                            ?>
+                            <?php if ($contents[6] == 'TRUE'): // pickup ?>
+                            <div class="swiper-slide slide-item">
+                                <a class="animsition-link" href="<?= $contents[4] ?>">
+                                    <img src="articles/img/<?= $contents[1] ?>" alt="">
+                                </a>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php endforeach; ?>
+                        <!-- swiper終了 -->
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -74,94 +78,113 @@
             <div class="l-container">
                 <div class="c-accordion">
                     <div class="c-accordion--parent">
-                        <h2 class="c-title">Webページ制作</h2>
+                        <h2 class="c-title">受託案件</h2>
                     </div>
 
                     <div class="c-accordion--child">
                         <div class="l-flex--pc">
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル1</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル2</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル3</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル3</h5>
-                                    <p>
-                                        チョコボ
-                                    </p>
-                                </div>
-                            </div>
+                            <!-- ここからカード展開 -->
+                            <?php
+                            foreach ($record as $id => $contents):
+                                ?>
+                                <?php if ($contents[5] == 'work'): // カテゴリ ?>
+                                <a class="c-card" href="<?= $contents[4] ?>">
+                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <div class="c-card--body">
+                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <p>
+                                            <?= $contents[3] ?>
+                                        </p>
+                                    </div>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php endforeach; ?>
+                            <!-- カード終了 -->
                         </div>
                     </div>
 
                     <div class="c-accordion--parent">
-                        <h2 class="c-title">前田デザイン室</h2>
+                        <h2 class="c-title">Web制作</h2>
                     </div>
 
                     <div class="c-accordion--child">
                         <div class="l-flex--pc">
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル1</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル2</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル3</h5>
-                                    <p>
-                                        WordPress + デザイン
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="c-card">
-                                <img class="c-card--img" src="./shared/img/portfolio4_bunner.png" alt="">
-                                <div class="c-card--body">
-                                    <h5 class="c-card--title">タイトル3</h5>
-                                    <p>
-                                        チョコボ
-                                    </p>
-                                </div>
-                            </div>
+                            <!-- ここからカード展開 -->
+                            <?php
+                            foreach ($record as $id => $contents):
+                                ?>
+                                <?php if ($contents[5] == 'web'): // カテゴリ ?>
+                                <a class="c-card" href="<?= $contents[4] ?>">
+                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <div class="c-card--body">
+                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <p>
+                                            <?= $contents[3] ?>
+                                        </p>
+                                    </div>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php endforeach; ?>
+                            <!-- カード終了 -->
                         </div>
                     </div>
+
+                    <div class="c-accordion--parent">
+                        <h2 class="c-title">前田デザイン室活動・その他アート作品</h2>
+                    </div>
+
+                    <div class="c-accordion--child">
+                        <div class="l-flex--pc">
+                            <!-- ここからカード展開 -->
+                            <?php
+                            foreach ($record as $id => $contents):
+                                ?>
+                                <?php if ($contents[5] == 'art'): // カテゴリ ?>
+                                <a class="c-card" href="<?= $contents[4] ?>">
+                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <div class="c-card--body">
+                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <p>
+                                            <?= $contents[3] ?>
+                                        </p>
+                                    </div>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php endforeach; ?>
+                            <!-- カード終了 -->
+                        </div>
+                    </div>
+
+                    <div class="c-accordion--parent">
+                        <h2 class="c-title">システム開発系</h2>
+                    </div>
+
+                    <div class="c-accordion--child">
+                        <div class="l-flex--pc">
+                            <!-- ここからカード展開 -->
+                            <?php
+                            foreach ($record as $id => $contents):
+                                ?>
+                                <?php if ($contents[5] == 'system'): // カテゴリ ?>
+                                <a class="c-card" href="<?= $contents[4] ?>">
+                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <div class="c-card--body">
+                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <p>
+                                            <?= $contents[3] ?>
+                                        </p>
+                                    </div>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php endforeach; ?>
+                            <!-- カード終了 -->
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -182,7 +205,7 @@
                             京都コンピュータ学院にてUnrealEngineやUnity、Three.jsなどのメディアアートに出会い、インタラクションデザインを得意とするJavaScript講師に師事した。
                         </p>
                         <p class="c-heading">
-                            リーマンショックとコロナ禍で就職活動を経験し、自分自身の在り方に焦点を当てるようになり、師弟関係から培った人間性を磨くよう努力している。
+                            リーマンショックとコロナ禍で就職活動を経験し、自分自身の在り方を試行錯誤しつつ反省。師弟関係から培った人間性を磨くよう努力している。
                         </p>
                         <p class="c-heading">
                             奈良先端科学技術大学院大学バイオサイエンス研究科修了後、統計学のバックグラウンドを活かしソーシャルゲームのプランナーとして勤務。その後、専門学校入学を決意した経緯がある。
