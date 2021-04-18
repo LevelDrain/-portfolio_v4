@@ -33,13 +33,13 @@ const topbtn = () => {
 }
 
 // リサイズでリストが消えたままにならないようにする
-$(window).resize(function () {
-    if (window.matchMedia('(max-width: 767px)').matches) {
-        $('.c-accordion--child').css('display', 'none');//スマホ処理
-    } else if (window.matchMedia('(min-width:768px)').matches) {
-        $('.c-accordion--child').css('display', 'block');//PC処理
-    }
-});
+// $(window).resize(function () {
+//     if (window.matchMedia('(max-width: 767px)').matches) {
+//         $('.c-accordion--child').css('display', 'none');//スマホ処理
+//     } else if (window.matchMedia('(min-width:768px)').matches) {
+//         $('.c-accordion--child').css('display', 'block');//PC処理
+//     }
+// });
 
 export default {
     animsition, accordion, topbtn

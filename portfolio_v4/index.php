@@ -92,7 +92,7 @@
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
-                                        <p>
+                                        <p class="text">
                                             <?= $contents[3] ?>
                                         </p>
                                     </div>
@@ -119,7 +119,7 @@
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
-                                        <p>
+                                        <p class="text">
                                             <?= $contents[3] ?>
                                         </p>
                                     </div>
@@ -146,7 +146,7 @@
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
-                                        <p>
+                                        <p class="text">
                                             <?= $contents[3] ?>
                                         </p>
                                     </div>
@@ -173,7 +173,7 @@
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
-                                        <p>
+                                        <p class="text">
                                             <?= $contents[3] ?>
                                         </p>
                                     </div>

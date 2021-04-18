@@ -7,6 +7,16 @@ const init = () => {
     jQueryObj.accordion();
     jQueryObj.topbtn();
 
+    //プロフィールのページ内リンクのみSPメニュー閉じる
+    let prof = document.querySelector('#ProfileBtn');
+    let checkbox = document.querySelector('#MenuspClick');
+    let close = document.querySelector('.c-spmenu--content');
+    prof.addEventListener('click', event => {
+        console.log(close.style);
+        close.style.left = '100%';
+        checkbox.classList.toggle(':checked');
+    });
+
     // スライダーライブラリ Swiper.js
     let swiper = new Swiper('.swiper-container', {
         slidesPerView: 1.2,

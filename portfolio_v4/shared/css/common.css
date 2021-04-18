@@ -452,10 +452,17 @@ a:hover {
 
 .c-card--body {
     flex: 1 1 auto;
-    margin-top: 1rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.c-card--body .text {
+    text-align: left;
+    line-height: 2;
 }
 
 .c-card--title {
+    text-align: left;
     margin-bottom: 1rem;
 }
 
@@ -560,6 +567,7 @@ a:hover {
     }
 
     .p-header--menu {
+        font-size: 1.2rem;
         margin-left: 1.5rem;
     }
 
@@ -659,11 +667,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.p-portfolio .l-flex--pc {
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .p-portfolio .c-title {
     font-size: 1rem;
     padding-left: 1rem;
@@ -680,6 +683,17 @@ a:hover {
 @media screen and (min-width: 768px) {
     .p-portfolio {
         padding-bottom: 5rem;
+    }
+
+    .p-portfolio .l-flex--pc {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .p-portfolio .l-flex--pc::after {
+        content: '';
+        display: block;
+        width: 31%;
     }
 
     .p-portfolio .c-card {

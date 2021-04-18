@@ -17,7 +17,7 @@
                         <a href="/portfolio_v4/" itemprop="url">Top</a>
                     </li>
                     <li>
-                        <a href="/portfolio_v4/#Profile" itemprop="url">Profile</a>
+                        <a href="#Profile" itemprop="url" id="ProfileBtn">Profile</a>
                     </li>
                     <li>
                         <a href="https://github.com/LevelDrain" itemprop="url" target="_blank">GitHub</a>
@@ -28,9 +28,15 @@
 
         <nav class="p-header--nav">
             <ul class="l-flex">
-                <li class="p-header--menu"><a href="/portfolio_v4/" itemprop="url">Top</a></li>
-                <li class="p-header--menu"><a href="/portfolio_v4/#Profile" itemprop="url">Profile</a></li>
-                <!-- <li><a href="/artworks/" itemprop="url">ArtWorks</a></li> -->
+                <li class="p-header--menu">
+                    <a href="/portfolio_v4/" itemprop="url">Top</a>
+                </li>
+                <li class="p-header--menu">
+                    <a href="/portfolio_v4/#Profile" itemprop="url">Profile</a>
+                </li>
+                <li class="p-header--menu">
+                    <a href="https://github.com/LevelDrain" itemprop="url" target="_blank">GitHub</a>
+                </li>
             </ul>
         </nav>
     </div>
