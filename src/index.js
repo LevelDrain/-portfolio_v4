@@ -7,14 +7,18 @@ const init = () => {
     jQueryObj.accordion();
     jQueryObj.topbtn();
 
+    //SPメニュー操作
+    const $box = document.querySelector('#MenuspClick');
+    const $content = document.querySelector('#MenuspContent');
+    const $prof = document.querySelector('#ProfileBtn');
+    $box.addEventListener('click', event => {
+        $box.classList.toggle('active');
+        $content.classList.toggle('active');
+    });
     //プロフィールのページ内リンクのみSPメニュー閉じる
-    let prof = document.querySelector('#ProfileBtn');
-    let checkbox = document.querySelector('#MenuspClick');
-    let close = document.querySelector('.c-spmenu--content');
-    prof.addEventListener('click', event => {
-        console.log(close.style);
-        close.style.left = '100%';
-        checkbox.classList.toggle(':checked');
+    $prof.addEventListener('click', event => {
+        $box.classList.remove('active');
+        $content.classList.remove('active');
     });
 
     // スライダーライブラリ Swiper.js

@@ -328,22 +328,18 @@ a:hover {
     top: 8px;
 }
 
-#MenuspClick:checked ~ .c-spmenu--btn span {
+#MenuspClick.active .c-spmenu--btn span {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#MenuspClick:checked ~ .c-spmenu--btn span::before {
+#MenuspClick.active .c-spmenu--btn span::before {
     bottom: 0;
     transform: rotate(45deg);
 }
 
-#MenuspClick:checked ~ .c-spmenu--btn span::after {
+#MenuspClick.active .c-spmenu--btn span::after {
     top: 0;
     transform: rotate(-45deg);
-}
-
-#MenuspClick {
-    display: none;
 }
 
 .c-spmenu--content {
@@ -357,7 +353,7 @@ a:hover {
     transition: all 0.5s;
 }
 
-#MenuspClick:checked ~ .c-spmenu--content {
+#MenuspContent.c-spmenu--content.active {
     left: 0;
 }
 

@@ -7,11 +7,12 @@
         </h1>
 
         <nav class="p-header--spmenu">
-            <input type="checkbox" id="MenuspClick">
-            <label for="MenuspClick" class="c-spmenu--btn">
-                <span></span>
-            </label>
-            <div class="c-spmenu--content">
+            <div id="MenuspClick">
+                <div class="c-spmenu--btn">
+                    <span></span>
+                </div>
+            </div>
+            <div id="MenuspContent" class="c-spmenu--content">
                 <ul>
                     <li>
                         <a href="/portfolio_v4/" itemprop="url">Top</a>
