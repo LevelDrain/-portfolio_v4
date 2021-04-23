@@ -29,10 +29,10 @@
 
         <section class="p-pr">
             <div class="l-container section-fadein">
-                <h2 class="c-title">真面目で実直<br>人情派メディアアーティスト</h2>
+                <h2 class="c-title">受け継がれた想いと技術<br>人情派クリエイター</h2>
                 <p class="c-heading">
-                    訪れた人が感動し元気になるような制作を心がけ、<br>
-                    日々コーディングやデザインに励んでおります。
+                    訪れた人が感動し元気になるような制作を心がけ、<br class="pc-br">
+                    職人魂を込めてコーディングやデザインに励んでおります。
                 </p>
             </div>
         </section>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="c-accordion--parent">
-                        <h2 class="c-title">前田デザイン室活動・その他アート作品</h2>
+                        <h2 class="c-title">前田デザイン室活動・<br class="sp-br">その他アート作品</h2>
                     </div>
 
                     <div class="c-accordion--child">
@@ -203,9 +203,6 @@
                         </p>
                         <p class="c-heading">
                             京都コンピュータ学院にてUnrealEngineやUnity、Three.jsなどのメディアアートに出会い、インタラクションデザインを得意とするJavaScript講師に師事した。
-                        </p>
-                        <p class="c-heading">
-                            リーマンショックとコロナ禍で就職活動を経験し、自分自身の在り方を試行錯誤しつつ反省。師弟関係から培った人間性を磨くよう努力している。
                         </p>
                         <p class="c-heading">
                             奈良先端科学技術大学院大学バイオサイエンス研究科修了後、統計学のバックグラウンドを活かしソーシャルゲームのプランナーとして勤務。その後、専門学校入学を決意した経緯がある。

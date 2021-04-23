@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.p-article--img {
+    padding-top: 4rem;
+}
+
+.p-article--img .l-container {
+    width: 100%;
+}
+
+.p-article--text {
+    padding: 3rem 0;
+}
+
+.p-article--text .l-container {
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .p-article--img {
+        padding-top: 6rem;
+    }
+
+    .p-article--img .l-container {
+        width: 80%;
+    }
+
+    .p-article--text {
+        padding: 5rem 0;
+    }
+}
