@@ -59,7 +59,7 @@
                             ?>
                             <?php if ($contents[6] == 'TRUE'): // pickup ?>
                             <div class="swiper-slide slide-item">
-                                <a class="animsition-link" href="<?= $contents[4] ?>">
+                                <a class="animsition-link" href="./articles/<?= $contents[4] ?>?id=<?= $contents[0] ?>">
                                     <img src="articles/img/<?= $contents[1] ?>" alt="">
                                 </a>
                             </div>
@@ -88,7 +88,7 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'work'): // カテゴリ ?>
-                                <a class="c-card" href="<?= $contents[4] ?>">
+                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>?id=<?= $contents[0] ?>">
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
@@ -115,34 +115,7 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'web'): // カテゴリ ?>
-                                <a class="c-card" href="<?= $contents[4] ?>">
-                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
-                                    <div class="c-card--body">
-                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
-                                        <p class="text">
-                                            <?= $contents[3] ?>
-                                        </p>
-                                    </div>
-                                </a>
-                            <?php endif; ?>
-
-                            <?php endforeach; ?>
-                            <!-- カード終了 -->
-                        </div>
-                    </div>
-
-                    <div class="c-accordion--parent">
-                        <h2 class="c-title">前田デザイン室活動・<br class="sp-br">その他アート作品</h2>
-                    </div>
-
-                    <div class="c-accordion--child">
-                        <div class="l-flex--pc">
-                            <!-- ここからカード展開 -->
-                            <?php
-                            foreach ($record as $id => $contents):
-                                ?>
-                                <?php if ($contents[5] == 'art'): // カテゴリ ?>
-                                <a class="c-card" href="<?= $contents[4] ?>">
+                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>?id=<?= $contents[0] ?>">
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
@@ -169,7 +142,34 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'system'): // カテゴリ ?>
-                                <a class="c-card" href="<?= $contents[4] ?>">
+                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>?id=<?= $contents[0] ?>">
+                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <div class="c-card--body">
+                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <p class="text">
+                                            <?= $contents[3] ?>
+                                        </p>
+                                    </div>
+                                </a>
+                            <?php endif; ?>
+
+                            <?php endforeach; ?>
+                            <!-- カード終了 -->
+                        </div>
+                    </div>
+
+                    <div class="c-accordion--parent">
+                        <h2 class="c-title">前田デザイン室活動・<br class="sp-br">その他アート作品</h2>
+                    </div>
+
+                    <div class="c-accordion--child">
+                        <div class="l-flex--pc">
+                            <!-- ここからカード展開 -->
+                            <?php
+                            foreach ($record as $id => $contents):
+                                ?>
+                                <?php if ($contents[5] == 'art'): // カテゴリ ?>
+                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>?id=<?= $contents[0] ?>">
                                     <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
                                     <div class="c-card--body">
                                         <h5 class="c-card--title"><?= $contents[2] ?></h5>
