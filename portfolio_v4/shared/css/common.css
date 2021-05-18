@@ -631,7 +631,9 @@ a:hover {
     .p-pr .c-title {
         font-size: 2.25rem;
     }
+}
 
+@media screen and (min-width: 1080px) {
     .p-pr .c-heading {
         text-align: center;
     }
