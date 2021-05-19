@@ -2,7 +2,7 @@
     <div class="l-flex l-container">
         <h1 class="p-header--logo">
             <a href="/portfolio_v4/" title="トップへ戻る">
-                <img src="https://leveldrain.sumomo.ne.jp/portfolio_v4/shared/img/img_logo.svg" alt="水準龍神宮">
+                <img src="https://leveldrain.sumomo.ne.jp/portfolio_v4/shared/img/img_logo.png" alt="到龍門">
             </a>
         </h1>
 

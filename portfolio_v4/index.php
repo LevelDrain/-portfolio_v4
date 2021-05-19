@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>水準龍神宮 | オフィシャルサイト</title>
+    <meta name="description" content="仕様だからと言わないアート系Webエンジニア「佐村木」のポートフォリオです">
+    <meta name="keywords" content="到龍門,ポートフォリオ,フロントエンド,インタラクションデザイン,佐村木,上島水準">
+    <meta name="google-site-verification" content="tZqs0OHBtbjxrSPSumM4AMEh1bJaXhAhjaKFlA2_iIs" />
+    <title>到龍門 - The road of Front End</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./shared/css/vendor/lity.min.css">
