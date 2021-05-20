@@ -193,6 +193,8 @@ img {
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
+    /* 保存防止 */
+    pointer-events: none;
 }
 
 a {
@@ -292,6 +294,19 @@ a:hover {
 /*
   Component
 ----------------------------------------------- */
+/* button */
+.c-button {
+    display: block;
+    width: 240px;
+    background-color: #b28738;
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px #634b25;
+    line-height: 1.5;
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    text-align: center;
+}
 
 /* sp menu */
 .c-spmenu--btn {
@@ -521,7 +536,7 @@ a:hover {
 #TopBtn {
     position: fixed;
     right: 0.3rem;
-    bottom: 0.3rem;
+    bottom: 1.5rem;
     width: 50px;
     height: 50px;
     display: flex;
@@ -555,7 +570,7 @@ a:hover {
 
 @media screen and (min-width: 768px) {
     .p-header--logo {
-        width: 180px;
+        width: 150px;
     }
 
     .p-header--nav {

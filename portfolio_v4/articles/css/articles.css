@@ -16,6 +16,10 @@
     text-align: left;
 }
 
+.p-article--btnbox {
+    margin-top: 2rem;
+}
+
 @media screen and (min-width: 768px) {
     .p-article--img {
         padding-top: 6rem;
@@ -27,5 +31,22 @@
 
     .p-article--text {
         padding: 5rem 0;
+    }
+
+    .p-article--btnbox {
+        margin-top: 3rem;
+    }
+}
+
+/*
+  Utility
+----------------------------------------------- */
+.tapunset {
+    pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+    .tapunset {
+        pointer-events: auto;
     }
 }

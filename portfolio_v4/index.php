@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="仕様だからと言わないアート系Webエンジニア「佐村木」のポートフォリオです">
-    <meta name="keywords" content="到龍門,ポートフォリオ,フロントエンド,インタラクションデザイン,佐村木,上島水準">
+    <meta name="keywords" content="到龍門,とうりゅうもん,ポートフォリオ,フロントエンド,インタラクションデザイン,佐村木,上島水準">
     <meta name="google-site-verification" content="tZqs0OHBtbjxrSPSumM4AMEh1bJaXhAhjaKFlA2_iIs" />
     <title>到龍門 - The road of Front End</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,7 +35,7 @@
                 <h2 class="c-title">『仕様だから』と言わない<br>アート系Webエンジニア</h2>
                 <p class="c-heading">
                     制作者の事情でユーザビリティを制限しないことを心がけています。<br class="pc-br">
-                    お客様に感動を体感していただくため、美術品を作るような丁寧さでコーディングやデザインに励んでおります。
+                    お客様に感動をお届けするため、美術品を作るような丁寧さでコーディングやデザインに励んでおります。
                 </p>
             </div>
         </section>
