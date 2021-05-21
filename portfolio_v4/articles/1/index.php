@@ -47,9 +47,8 @@
                         ※ Excelファイルにつき、スマホでのダウンロードを無効にしております。
                     </p>
                 </div>
-                <div class="p-article--btnbox">
-                    <hr>
-                    <a href="" class="c-button">戻る</a>
+                <div class="p-article--btnbox c-border-top">
+                    <a href="javascript:history.back();" class="c-button">戻る</a>
                 </div>
             </div>
         </section>

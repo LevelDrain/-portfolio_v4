@@ -1,4 +1,50 @@
 @charset "utf-8";
+.c-border-top {
+    border-top: solid 2px #b28738;
+    padding-top: 1rem;
+}
+
+.c-border-top .c-button {
+    background-color: unset;
+}
+
+.c-border-top .c-button::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../../shared/img/img_cloud.svg") no-repeat 0 center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.c-border-top .c-button::after {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../../shared/img/img_cloud.svg") no-repeat 0 center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .c-border-top {
+        padding-top: 3rem;
+    }
+
+    .c-border-top .c-button::before {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .c-border-top .c-button::after {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+}
 
 .p-article--img {
     padding-top: 4rem;

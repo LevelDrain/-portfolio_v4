@@ -6,6 +6,6 @@
     </div>
 
     <p class="p-footer--writer">
-        <small>© 2021 Level Ueshima</small>
+        <small>© 2021 Yuki Samuraki (Level Ueshima)</small>
     </p>
 </footer>
