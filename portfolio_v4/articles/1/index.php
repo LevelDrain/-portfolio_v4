@@ -42,7 +42,7 @@
                     レベルデザイン業務を効率よく行うため、VLOOKUP関数などの関数を用いてよりデータベースに近い操作ができるよう工夫していた。
                 </p>
                 <div class="p-article--btnbox">
-                    <a href="" class="c-button tapunset">ダウンロード</a>
+                    <a href="https://leveldrain.sumomo.ne.jp/PokemonButtleJS/Specification.xlsx" class="c-button tapunset">ダウンロード</a>
                     <p class="c-heading">
                         ※ Excelファイルにつき、スマホでのダウンロードを無効にしております。
                     </p>
