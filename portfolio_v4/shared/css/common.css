@@ -130,7 +130,6 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
     content: none;
 }
 
@@ -148,7 +147,6 @@ input[type="submit"] {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    outline: none;
     padding: 0;
 }
 
