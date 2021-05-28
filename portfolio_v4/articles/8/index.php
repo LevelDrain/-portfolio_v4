@@ -44,23 +44,27 @@
 
                 <h3 class="p-article--title">動画埋め込み</h3>
                 <p class="c-heading">
-                    YouTubeやmp3などの動画を埋め込み、画面幅によって横幅が変わるよう対応しました。<br>
+                    YouTubeやmp3などの動画を埋め込み、画面幅によって横幅が変わるよう対応した。<br>
                     全体の横幅はタブレットおよびPCで見たときに大きくなり過ぎないよう650pxで止まるようになっており、<br>
-                    動画を横幅100%で余白いっぱいまで設定した際に横650px以上に拡大しないよう設定しています。
+                    動画を横幅100%で余白いっぱいまで設定した際に横650px以上に拡大しないよう設定している。
                 </p>
                 <div class="p-article--fig">
                     <img src="../img/matsumoto_pu1.png" alt="">
                 </div>
+            </div>
 
+            <div class="l-container section-fadein">
                 <h3 class="p-article--title">複雑なデザインに対応するCSS</h3>
                 <p class="c-heading">
-                    ネガティブマージンを用いることで、画像を使わずにセクションの背景を設定しました。<br>
+                    ネガティブマージンを用いることで、画像を使わずにセクションの背景を設定した。<br>
                     （画像を背景に設定した場合、文字の長さによってセクション毎に引き伸ばしの割合が変わり、統一感のないデザインになるため）
                 </p>
                 <div class="p-article--fig">
                     <img src="../img/matsumoto_pu2.png" alt="">
                 </div>
+            </div>
 
+            <div class="l-container section-fadein">
                 <h3 class="p-article--title">急な打ち換え変更への対応</h3>
                 <p class="c-heading">
                     メンテナンスの負担を減らすために、カレンダーなどの打ち換えが発生するデザインは全てスタイルで対応。
@@ -70,9 +74,10 @@
                 </div>
 
                 <div class="p-article--btnbox">
-                    <a href="sample" class="c-button tapunset" target="_blank">全画面<br>スクリーンショットへ</a>
+                    <a href="sample" class="c-button">全画面<br>スクリーンショットへ</a>
                 </div>
             </div>
+
             <div class="p-article--btnbox c-border-top">
                 <a href="javascript:history.back();" class="c-button">戻る</a>
             </div>
