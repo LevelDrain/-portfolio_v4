@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M様LP スクショ | 到龍門</title>
+    <title>工房コロンボ様 スクショ | 到龍門</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../../shared/css/vendor/lity.min.css">
@@ -28,18 +28,31 @@
             <div class="l-container">
                 <h3 class="p-article--title">全画面スクリーンショット</h3>
                 <p class="c-heading">
-                    ※ かなり長めですので、右下の剣アイコン（上へボタン）をお使いください。<br>
+                    ※ 長い記事ですので、右下の剣アイコン（上へボタン）をお使いください。<br>
                 </p>
                 <div class="p-article--btnbox">
                     <a href="javascript:history.back();" class="c-button">紹介ページへ戻る</a>
                 </div>
 
+                <h3 class="p-article--title">PCサイト</h3>
                 <div class="p-article--fig">
-                    <img src="../../img/matsumoto1.png" alt="">
-                    <img src="../../img/matsumoto2.png" alt="">
-                    <img src="../../img/matsumoto3.png" alt="">
-                    <img src="../../img/matsumoto4.png" alt="">
-                    <img src="../../img/matsumoto5.png" alt="">
+                    <p class="c-heading">ホーム</p>
+                    <p class="c-heading"><img src="../../img/colombo-pc1.png" alt=""></p>
+                </div>
+                <div class="p-article--fig">
+                    <p class="c-heading">実績紹介ページ</p>
+                    <p class="c-heading"><img src="../../img/colombo-pc2.png" alt=""></p>
+                </div>
+
+                <h3 class="p-article--title">スマホサイト</h3>
+                <div class="p-article--fig">
+                    <p class="c-heading">ホーム</p>
+                    <p class="c-heading"><img src="../../img/colombo-sp1.png" alt=""></p>
+                </div>
+
+                <div class="p-article--fig">
+                    <p class="c-heading">実績紹介ページ</p>
+                    <p class="c-heading"><img src="../../img/colombo-sp2.png" alt=""></p>
                 </div>
 
                 <div class="p-article--btnbox c-border-top">

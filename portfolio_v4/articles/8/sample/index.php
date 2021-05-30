@@ -28,7 +28,7 @@
             <div class="l-container">
                 <h3 class="p-article--title">全画面スクリーンショット</h3>
                 <p class="c-heading">
-                    ※ かなり長めですので、右下の剣アイコン（上へボタン）をお使いください。<br>
+                    ※ 長い記事ですので、右下の剣アイコン（上へボタン）をお使いください。<br>
                 </p>
                 <div class="p-article--btnbox">
                     <a href="javascript:history.back();" class="c-button">紹介ページへ戻る</a>

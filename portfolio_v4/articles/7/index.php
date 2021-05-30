@@ -34,7 +34,10 @@
             <div class="l-container section-fadein">
                 <h2 class="c-title">工房コロンボ様ホームページ</h2>
                 <p class="c-heading">
-                    WordPressで
+                    WordPressのテンプレートが設定された状態から仲介者を経由して請ける。<br>
+                    「いい感じにしておいて」との指示であったため、デザインを優先して進捗報告をしながら進めた。<br>
+                    仕様書を制作する余裕がないとの要望を受け、内容は主に旧サイトの内容と手書き文書から書き起こす。<br>
+                    最終的に休業になったためリリースはされなかった。
                 </p>
                 <p class="c-heading">制作環境</p>
                 <ul class="p-article--list">
