@@ -83,36 +83,29 @@
                     </div>
                 </div>
 
-                <h3 class="p-article--title">新店舗開店に伴うアップデート</h3>
-                <div class="l-container section-fadein">
-                    <p class="c-heading">
-                        ※ note差し込み
-                    </p>
-                </div>
-
                 <h3 class="p-article--title">制作リソース一覧</h3>
                 <div class="l-container section-fadein">
-                    <div class="p-article--fig">
-                        <img src="../img/img_logo.png" alt="">
+                    <div class="p-article--fig wl">
+                        <img src="../img/panel_rogo.png" alt="">
                     </div>
                     <p class="c-heading">
-                        ロゴデザイン（Illustratorを用いていないことが現在の課題）<br>
+                        ロゴデザイン（看板デザインを含む）。<br>
                         コンセプトはローズマリーが音楽でイキイキと育っていく様子。
                     </p>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/img_header2.jpg" alt="">
                     </div>
                     <p class="c-heading">
                         元の画像がバラとピアノのサンプル画像だったため、近いオリジナルデザインに作り替える。
                     </p>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/img_child1.png" alt="">
                     </div>
                     <p class="c-heading">
                         ピアノの早期教育によりIQが高くなること、人間性が高まること、芸術的センスが育つことについての長文記事を要約し、「創造性」「知性」「未来を育む音楽のチカラ」というコピーに落とし込む。<br>
                         画像は「ぱくたそ」のフリー素材を使用。
                     </p>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/img_pretoon.jpg" alt="">
                     </div>
                     <p class="c-heading">
@@ -120,17 +113,17 @@
                         「プリトーン」という一般の訪問者に馴染みのない単語を用いたため、システムを理解しやすいよう挿絵用バナーを制作。<br>
                         人物デッサンを練習し始めた際に制作したため、かなりの自信作となっている。
                     </p>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/renewal_bunner.png" alt="">
                     </div>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/bunner_back.png" alt="">
                     </div>
                     <p class="c-heading">
                         素材をCLIP STUDIO PAINTで作成した後、Illustratorで全体を構成。<br>
                         チラシを基に作成している。
                     </p>
-                    <div class="p-article--fig">
+                    <div class="p-article--fig wl">
                         <img src="../img/flyer.jpeg" alt="">
                     </div>
                 </div>

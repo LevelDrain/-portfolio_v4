@@ -85,7 +85,7 @@
 }
 
 /* 挿絵 */
-.p-article--fig {
+.p-article--fig, .p-article--fig.wl {
     width: 100%;
     margin: 1.25rem auto 0;
 }
@@ -158,6 +158,10 @@
     .p-article--fig {
         width: 50%;
         margin: 1.5rem auto 0;
+    }
+
+    .p-article--fig.wl {
+        width: 80%;
     }
 
     .p-article--btnbox {

@@ -32,7 +32,7 @@
 
         <section class="p-pr">
             <div class="l-container section-fadein">
-                <h2 class="c-title">注文できるメディアアーティスト</h2>
+                <h2 class="c-title">デザインできるWebエンジニア</h2>
                 <p class="c-heading">
                     フロントエンド開発とWebデザインを得意とする、Web制作のマルチポテンシャライト。<br>
                     依頼者に共感し、そのアイデアを芸術作品のように極上な仕上がりにすることを心がけています。
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="c-accordion--parent">
-                        <h2 class="c-title">前田デザイン室活動、<br class="sp-br">アート・デザイン領域</h2>
+                        <h2 class="c-title">アート・デザイン領域</h2>
                     </div>
 
                     <div class="c-accordion--child">
@@ -202,7 +202,7 @@
                     </div>
                     <div class="text">
                         <p class="c-heading heading--pc">
-                            フロントエンド開発からデザイン、コピーライティングまで手掛けるWeb制作のマルチポテンシャライト。また、前田デザイン室にて『上島水準（Level Ueshima）』として、漫画が描けるデザイナーとしての活動を行う。
+                            フロントエンド開発からデザイン、コピーライティングまで手掛けるWeb制作のマルチポテンシャライト。また、上嶋レベル（Level Ueshima）として、漫画が描けるデザイナーとしての活動を行う。
                         </p>
                         <p class="c-heading">
                             京都コンピュータ学院にてJavaScript講師に根性を叩きなおされ、不平不満だらけの人生を変えるべく師事した経緯がある。

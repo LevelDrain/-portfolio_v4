@@ -26,23 +26,30 @@
     <main class="l-main">
         <section class="p-article--img">
             <div class="l-container">
-                <img src="../img/img_excel.png" alt="">
+                <div class="p-article--iframe">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZqwVPJLal4A"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
             </div>
         </section>
 
         <section class="p-article--text">
             <div class="l-container section-fadein">
-                <h2 class="c-title">レベルデザインツール</h2>
+                <h2 class="c-title">ソシャゲプランナー時代</h2>
                 <p class="c-heading">
-                    ソーシャルゲームのプランナー時代に行っていた業務内容をサンプルにしたもの。<br>
-                    本Excelファイルは業務ではなく、当時遊んでいた『ファイアーエムブレム if』のキャラクターをいかに強く育てあげるかについてシミュレーションするための個人使用のツールである。
+                    ソーシャルゲームのプランナー時代に行っていた業務内容を動画にまとめたもの。<br>
                 </p>
                 <p class="c-heading">
+                    レベルデザインツールのサンプル。<br>
+                    本Excelファイルは業務ではなく、当時遊んでいた『ファイアーエムブレム if』のキャラクターをいかに強く育てあげるかについてシミュレーションするための個人使用のツールである。
                     業務としてはデータベースに入れるためのパラメータ（HPや攻撃力などといったUXに関わる数値データ）をExcelで自動計算させ、SQLに反映させ、実機でデバッグしながら調整する「レベルデザイン」を行っていた。<br>
                     レベルデザイン業務を効率よく行うため、VLOOKUP関数などの関数を用いてよりデータベースに近い操作ができるよう工夫していた。
                 </p>
                 <div class="p-article--btnbox">
-                    <a href="https://leveldrain.sumomo.ne.jp/PokemonButtleJS/Specification.xlsx" class="c-button tapunset">ダウンロード</a>
+                    <a href="https://leveldrain.sumomo.ne.jp/PokemonButtleJS/Specification.xlsx"
+                       class="c-button tapunset">ダウンロード</a>
                     <p class="c-heading">
                         ※ Excelファイルにつき、スマホでのダウンロードを無効にしております。
                     </p>
