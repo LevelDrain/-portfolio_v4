@@ -81,12 +81,11 @@
             <div class="p-article--btnbox c-border-top">
                 <a href="javascript:history.back();" class="c-button">戻る</a>
             </div>
-</div>
-</section>
-</main>
+        </section>
+    </main>
 
-<!-- footer -->
-<?php require_once('./../../shared/footer.php'); ?>
+    <!-- footer -->
+    <?php require_once('./../../shared/footer.php'); ?>
 </div>
 
 <script src="./../../shared/js/main.js"></script>

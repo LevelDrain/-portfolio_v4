@@ -32,10 +32,10 @@
 
         <section class="p-pr">
             <div class="l-container section-fadein">
-                <h2 class="c-title">デザインできるWebエンジニア</h2>
+                <h2 class="c-title">注文できるアーティスト</h2>
                 <p class="c-heading">
-                    フロントエンド開発とWebデザインを得意とする、Web制作のマルチポテンシャライト。<br>
-                    依頼者に共感し、そのアイデアを芸術作品のように極上な仕上がりにすることを心がけています。
+                    フロントエンド開発とWebデザインを得意とするWebエンジニア。<br>
+                    依頼者に共感し、そのアイデアを芸術作品のような極上の仕上がりにすることを心がけています。
                 </p>
             </div>
         </section>
