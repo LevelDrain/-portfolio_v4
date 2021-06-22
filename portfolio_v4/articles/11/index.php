@@ -34,20 +34,19 @@
             <div class="l-container section-fadein">
                 <h2 class="c-title">M塾様ホームページ</h2>
                 <p class="c-heading">
-                    WordPressのテンプレートが設定された状態から仲介者を経由して請ける。<br>
-                    「いい感じにしておいて」との指示であったため、デザインを優先して進捗報告をしながら進めた。<br>
-                    仕様書を制作する余裕がないとの要望を受け、内容は主に旧サイトの内容と手書き文書から書き起こす。<br>
-                    最終的に休業になったためリリースはされなかった。
+                    フロントエンドエンジニアとして最初に請け負った案件。フルスクラッチでレスポンシブ対応をしたWebサイトを制作。<br>
+                    7日程度で制作したのち、メンテナンスやリテイクなどが長く続き1ヵ月程度。
                 </p>
+
                 <p class="c-heading">制作環境</p>
                 <ul class="p-article--list">
-                    <li>WordPress（テンプレートはColibri）</li>
-                    <li>CLIP STUDIO PAINT（レタッチのみ）</li>
+                    <li>HTML/CSS</li>
+                    <li>jQuery</li>
                 </ul>
 
-                <h3 class="p-article--title">コピーライティング</h3>
+                <h3 class="p-article--title">タブメニューへのアコーディオン入れ子</h3>
                 <p class="c-heading">
-                    企業理念や事業内容が完結に伝わるよう、可能な限り短い文章になるまで推敲した。
+                    jQueryを使ったパーツの入れ子はコードが複雑になりがちだったが、指定通りの動作をするよう妥協なく仕上げた。
                 </p>
                 <div class="p-article--fig">
                     <img src="../img/img_matsugaku.png" alt="">

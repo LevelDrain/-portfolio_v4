@@ -39,7 +39,6 @@
                 <p class="c-heading">制作環境</p>
                 <ul class="p-article--list">
                     <li>HTML / CSS</li>
-                    <li>Illustrator（スライスのみ）</li>
                 </ul>
 
                 <h3 class="p-article--title">動画埋め込み</h3>
