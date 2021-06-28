@@ -85,45 +85,67 @@
 
                 <h3 class="p-article--title">制作リソース一覧</h3>
                 <div class="l-container section-fadein">
-                    <div class="p-article--fig wl">
-                        <img src="../img/panel_rogo.png" alt="">
-                    </div>
+                    <h3 class="p-article--title">ロゴデザイン</h3>
                     <p class="c-heading">
-                        ロゴデザイン（看板デザインを含む）。<br>
                         コンセプトはローズマリーが音楽でイキイキと育っていく様子。
                     </p>
-                    <div class="p-article--fig wl">
-                        <img src="../img/img_header2.jpg" alt="">
+                    <div class="p-article--fig">
+                        <img src="../img/main_logo2.png" alt="">
                     </div>
+
+                    <h3 class="p-article--title">看板デザイン</h3>
                     <p class="c-heading">
-                        元の画像がバラとピアノのサンプル画像だったため、近いオリジナルデザインに作り替える。
+                        直射日光が強い場所に配置するとの情報を受け、退色に強くなるようコントラストを強調する。<br>
+                        楽譜や花束、飾りなどのリソースも含めて全てIllustratorで作成。ファイルは 4m × 1m で制作。
                     </p>
                     <div class="p-article--fig wl">
-                        <img src="../img/img_child1.png" alt="">
+                        <img src="../img/rose_print1.png" alt="">
                     </div>
+                    <p class="c-heading">
+                        白は退色や汚れに強いベージュに変更。最終的には子ども音楽教室向けの「かわいいデザイン」を採用。
+                    </p>
+                    <div class="p-article--fig wl">
+                        <img src="../img/rose_print2.png" alt="">
+                    </div>
+
+                    <h3 class="p-article--title">バナー画像集</h3>
+                    <p class="c-heading">
+                        元の画像がフリー素材のサンプル画像だったため、近いオリジナルデザインに作り替える。
+                    </p>
+                    <div class="p-article--fig">
+                        <img src="../img/img_header2.jpg" alt="">
+                    </div>
+
                     <p class="c-heading">
                         ピアノの早期教育によりIQが高くなること、人間性が高まること、芸術的センスが育つことについての長文記事を要約し、「創造性」「知性」「未来を育む音楽のチカラ」というコピーに落とし込む。<br>
                         画像は「ぱくたそ」のフリー素材を使用。
                     </p>
-                    <div class="p-article--fig wl">
-                        <img src="../img/img_pretoon.jpg" alt="">
+                    <div class="p-article--fig">
+                        <img src="../img/img_child1.png" alt="">
                     </div>
+
                     <p class="c-heading">
                         音楽と英語を同時に習得できる講座を推すためのバナー。<br>
                         「プリトーン」という一般の訪問者に馴染みのない単語を用いたため、システムを理解しやすいよう挿絵用バナーを制作。<br>
                         人物デッサンを練習し始めた際に制作したため、かなりの自信作となっている。
                     </p>
-                    <div class="p-article--fig wl">
+                    <div class="p-article--fig">
+                        <img src="../img/img_pretoon.jpg" alt="">
+                    </div>
+
+                    <p class="c-heading">
+                        素材をCLIP STUDIO PAINTで作成した後、Illustratorで全体を構成。
+                    </p>
+                    <div class="p-article--fig">
                         <img src="../img/renewal_bunner.png" alt="">
                     </div>
-                    <div class="p-article--fig wl">
+                    <div class="p-article--fig">
                         <img src="../img/bunner_back.png" alt="">
                     </div>
                     <p class="c-heading">
-                        素材をCLIP STUDIO PAINTで作成した後、Illustratorで全体を構成。<br>
-                        チラシを基に作成している。
+                        送られてきたチラシを基にオリジナルで描き起こしている。
                     </p>
-                    <div class="p-article--fig wl">
+                    <div class="p-article--fig">
                         <img src="../img/flyer.jpeg" alt="">
                     </div>
                 </div>
