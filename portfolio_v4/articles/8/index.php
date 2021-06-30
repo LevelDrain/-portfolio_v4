@@ -75,10 +75,10 @@
                 <div class="p-article--btnbox">
                     <a href="sample" class="c-button">全画面<br>スクリーンショットへ</a>
                 </div>
-            </div>
 
-            <div class="p-article--btnbox c-border-top">
-                <a href="javascript:history.back();" class="c-button">戻る</a>
+                <div class="p-article--btnbox c-border-top">
+                    <a href="javascript:history.back();" class="c-button">戻る</a>
+                </div>
             </div>
         </section>
     </main>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I社様予約システム | 到龍門</title>
+    <title>一行日記 | 到龍門</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../shared/css/vendor/lity.min.css">
@@ -26,25 +26,31 @@
     <main class="l-main">
         <section class="p-article--img">
             <div class="l-container">
-                <img src="../img/img_system.png" alt="">
+                <img src="../img/img_diary.png" alt="">
             </div>
         </section>
 
         <section class="p-article--text">
             <div class="l-container section-fadein">
-                <h2 class="c-title">I社様予約システム</h2>
+                <h2 class="c-title">一行日記</h2>
                 <p class="c-heading">
-                    管理画面のGUIの修正および新規実装を担当。
+                    専門学校時代にインターンシップで参加して制作したもの。<br>
+                    1回生と合同だったため、CRUDの基礎から指定課題、後半5日で企画から実装までの自由課題という充実した内容で取り組んだ。
+                    バックエンドの苦手意識はここで解消された。
                 </p>
                 <p class="c-heading">開発環境</p>
                 <ul class="p-article--list">
-                    <li>Vue.js</li>
-                    <li>Laravel</li>
+                    <li>PHP</li>
                 </ul>
+                <div class="p-article--btnbox">
+                    <a href="https://matsugakujyuku.com/" class="c-button" target="_blank" rel="noopener noreferrer">実際のWebサイトへ</a>
+                </div>
+
                 <div class="p-article--btnbox c-border-top">
                     <a href="javascript:history.back();" class="c-button">戻る</a>
                 </div>
             </div>
+
         </section>
     </main>
 
