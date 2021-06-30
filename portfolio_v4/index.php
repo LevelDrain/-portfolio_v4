@@ -41,6 +41,12 @@
         </section>
 
         <?php
+        //セキュリティ
+        function hsc($code)
+        {
+            return htmlspecialchars($code, ENT_QUOTES, "UTF-8");
+        }
+
         //CSV読み込み
         $filepath = './shared/csv/system.csv';
         $record = [];
@@ -63,11 +69,11 @@
                             <?php if ($contents[6] == 'TRUE'): // pickup ?>
                             <div class="swiper-slide slide-item">
                                 <?php if (substr($contents[4], 0, 6) === 'https:') { // 外部リンクの場合
-                                    echo '<a href="' . $contents[4] . '" target="_blank" rel="noopener noreferrer">';
+                                    echo '<a href="' . hsc($contents[4]) . '" target="_blank" rel="noopener noreferrer">';
                                 } else {
-                                    echo '<a class="animsition-link" href="./articles/' . $contents[4] . '">';
+                                    echo '<a class="animsition-link" href="./articles/' . hsc($contents[4]) . '">';
                                 } ?>
-                                <img src="articles/img/<?= $contents[1] ?>" alt="" style="pointer-events: auto">
+                                <img src="articles/img/<?= hsc($contents[1]) ?>" alt="" style="pointer-events: auto">
                                 </a>
                             </div>
                         <?php endif; ?>
@@ -95,12 +101,12 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'work'): // カテゴリ ?>
-                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>">
-                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                <a class="c-card animsition-link" href="./articles/<?= hsc($contents[4]) ?>">
+                                    <img class="c-card--img" src="articles/img/<?= hsc($contents[1]) ?>" alt="">
                                     <div class="c-card--body">
-                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <h5 class="c-card--title"><?= nl2br(hsc($contents[2])) ?></h5>
                                         <p class="text">
-                                            <?= $contents[3] ?>
+                                            <?= nl2br(hsc($contents[3])) ?>
                                         </p>
                                     </div>
                                 </a>
@@ -122,12 +128,12 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'web'): // カテゴリ ?>
-                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>">
-                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                <a class="c-card animsition-link" href="./articles/<?= hsc($contents[4]) ?>">
+                                    <img class="c-card--img" src="articles/img/<?= hsc($contents[1]) ?>" alt="">
                                     <div class="c-card--body">
-                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <h5 class="c-card--title"><?= nl2br(hsc($contents[2])) ?></h5>
                                         <p class="text">
-                                            <?= $contents[3] ?>
+                                            <?= nl2br(hsc($contents[3])) ?>
                                         </p>
                                     </div>
                                 </a>
@@ -150,15 +156,15 @@
                                 <?php if ($contents[5] == 'career'): // カテゴリ  ?>
 
                                     <?php if (substr($contents[4], 0, 6) === 'https:') { // 外部リンクの場合
-                                        echo '<a class="c-card" href="' . $contents[4] . '" target="_blank" rel="noopener noreferrer">';
+                                        echo '<a class="c-card" href="' . hsc($contents[4]) . '" target="_blank" rel="noopener noreferrer">';
                                     } else {
-                                        echo '<a class="c-card animsition-link" href="./articles/' . $contents[4] . '">';
+                                        echo '<a class="c-card animsition-link" href="./articles/' . hsc($contents[4]) . '">';
                                     } ?>
-                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                    <img class="c-card--img" src="articles/img/<?= hsc($contents[1]) ?>" alt="">
                                     <div class="c-card--body">
-                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <h5 class="c-card--title"><?= nl2br(hsc($contents[2])) ?></h5>
                                         <p class="text">
-                                            <?= $contents[3] ?>
+                                            <?= nl2br(hsc($contents[3])) ?>
                                         </p>
                                     </div>
                                     </a>
@@ -181,12 +187,12 @@
                             foreach ($record as $id => $contents):
                                 ?>
                                 <?php if ($contents[5] == 'art'): // カテゴリ ?>
-                                <a class="c-card animsition-link" href="./articles/<?= $contents[4] ?>">
-                                    <img class="c-card--img" src="articles/img/<?= $contents[1] ?>" alt="">
+                                <a class="c-card animsition-link" href="./articles/<?= hsc($contents[4]) ?>">
+                                    <img class="c-card--img" src="articles/img/<?= hsc($contents[1]) ?>" alt="">
                                     <div class="c-card--body">
-                                        <h5 class="c-card--title"><?= $contents[2] ?></h5>
+                                        <h5 class="c-card--title"><?= nl2br(hsc($contents[2])) ?></h5>
                                         <p class="text">
-                                            <?= $contents[3] ?>
+                                            <?= nl2br(hsc($contents[3])) ?>
                                         </p>
                                     </div>
                                 </a>

@@ -80,7 +80,7 @@
                     <p class="c-heading">内部Webページの例。急な対応が必要だったため、HTML/CSSは全て独学で何とか形にする。<br>
                     スキルレベルMAXの欄は長くて見づらかったためアコーディオンを実装。</p>
                     <div class="p-article--fig wl">
-                        <img src="../img/a1_frontend1.jpg" alt="">
+                        <img src="../img/a1_frontend1.png" alt="">
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                         画像はキャラクター発注からバナー企画書、キャッチコピー、キャラクター名およびスキル名考案までを全面担当したものの一例。
                     </p>
                     <div class="p-article--fig wl">
-                        <img src="../img/a1_chara1.jpg" alt="">
+                        <img src="../img/a1_chara1.png" alt="">
                     </div>
                     <div class="p-article--fig">
                         <img src="../img/a1_chara2.jpg" alt="">
@@ -106,10 +106,19 @@
                     <h3 class="p-article--title">演出企画</h3>
                     <p class="c-heading">
                         新規リニューアル時にエフェクトやストーリーモードの演出企画、Unityプラグイン「宴」のファイルシステム化など、全て担当していた。<br>
-                        画像はリニューアル時のバトルエフェクト担当部分（MAX時のエフェクトおよび敵出現演出企画）。
+                        ストーリーモードの演出企画の例。キャラサイズや、話していないキャラの暗転は自動で修正されるようExcelでツール化していた。
                     </p>
                     <div class="p-article--fig">
-                        <img src="../img/a1_effect.jpg" alt="">
+                        <img src="../img/a1_effect3.png" alt="">
+                    </div>
+                    <p class="c-heading">
+                        リニューアル時のバトルエフェクト担当部分（MAX時のエフェクトおよび敵出現演出企画）。
+                    </p>
+                    <div class="p-article--fig">
+                        <img src="../img/a1_effect1.png" alt="">
+                    </div>
+                    <div class="p-article--fig">
+                        <img src="../img/a1_effect2.png" alt="">
                     </div>
                 </div>
 
