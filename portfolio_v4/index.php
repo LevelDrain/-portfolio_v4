@@ -52,7 +52,7 @@
         $record = [];
         if (($handle = fopen($filepath, 'r')) !== false) {
             while (($data = fgetcsv($handle, 1000, ',')) !== false) {
-                array_unshift($record, $data); //下にある方が先になるよう配列追加
+                array_push($record, $data);
             }
         }
         fclose($handle);
