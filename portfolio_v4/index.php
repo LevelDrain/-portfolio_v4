@@ -52,7 +52,7 @@
         $record = [];
         if (($handle = fopen($filepath, 'r')) !== false) {
             while (($data = fgetcsv($handle, 1000, ',')) !== false) {
-                array_push($record, $data);
+                array_unshift($record, $data);
             }
         }
         fclose($handle);

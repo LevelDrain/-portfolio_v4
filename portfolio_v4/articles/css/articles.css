@@ -94,6 +94,10 @@
     margin-top: 2rem;
 }
 
+.p-article--btnbox .c-heading{
+    text-align: center;
+}
+
 /* 動画埋め込み */
 .p-article--movie {
     padding-top: 4rem;
