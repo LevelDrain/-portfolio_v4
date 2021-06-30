@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I社様予約システム | 到龍門</title>
+    <title>予約システム | 到龍門</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../shared/css/vendor/lity.min.css">
@@ -32,7 +32,7 @@
 
         <section class="p-article--text">
             <div class="l-container section-fadein">
-                <h2 class="c-title">I社様予約システム</h2>
+                <h2 class="c-title">予約システム</h2>
                 <p class="c-heading">
                     管理画面のGUIの修正および新規実装を担当。
                 </p>
