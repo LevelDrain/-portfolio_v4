@@ -16,10 +16,10 @@ CRUDの基礎。バックエンドの苦手意識はここで解消された（�
 8,img_portfolio1.png,学生時代ポートフォリオ,"HTML/CSS/JavaScript
 化け猫の自作イラストが特徴的な2年前のポートフォリオ（学生作品）",8/,web,FALSE
 9,img_threejs.png,魔法生成サイト「ジオストーム」,"Three.js
-インタラクションデザイナーを目指すきっかけとなった（学生作品）",9/,web,TRUE
+フロントエンドエンジニアを目指すきっかけとなった学生作品。制作秘話あり。",9/,web,TRUE
 10,img_portfolio2.png,水準研究所,"Vue.js/Pixi.js
 Vue.jsの実力を試すために制作したポートフォリオ",10/,web,FALSE
-11,img_portfolio4.png,到龍門 - The road of Front End,"HTML/CSS/JavaScript（ビルド：babel）/Three.js/jQuery
+11,img_portfolio4.png,到龍門 - The road of Front End,"HTML/CSS/JavaScript/Three.js/jQuery
 アニメーション、デザイン、flocssの導入など、現在のスキルレベルを分かるよう構成された最新のポートフォリオ",11/,web,TRUE
 12,img_system.png,予約システム,"Laravel/Vue.js
 予約システムのGUI実装を担当",12/,work,FALSE
