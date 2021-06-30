@@ -21,7 +21,23 @@
                         <a href="#Profile" itemprop="url" id="ProfileBtn">Profile</a>
                     </li>
                     <li>
-                        <a href="https://github.com/LevelDrain" itemprop="url" target="_blank">GitHub</a>
+                        <div class="c-sns--wrap">
+                            <a href="https://github.com/LevelDrain" itemprop="url" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="c-sns--icon fab fa-github-square"></i>
+                            </a>
+                            <a href="https://twitter.com/level_ueshima" itemprop="url" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="c-sns--icon fab fa-twitter-square"></i>
+                            </a>
+                            <a href="https://www.facebook.com/darkmatter77" itemprop="url" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="c-sns--icon fab fa-facebook-square"></i>
+                            </a>
+                            <a href="mailto:drain2291@gmail.com">
+                                <i class="c-sns--icon fas fa-envelope-square"></i>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -36,7 +52,23 @@
                     <a href="/portfolio_v4/#Profile" itemprop="url">Profile</a>
                 </li>
                 <li class="p-header--menu">
-                    <a href="https://github.com/LevelDrain" itemprop="url" target="_blank">GitHub</a>
+                    <div class="c-sns--wrap">
+                        <a href="https://github.com/LevelDrain" itemprop="url" target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="c-sns--icon fab fa-github-square"></i>
+                        </a>
+                        <a href="https://twitter.com/level_ueshima" itemprop="url" target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="c-sns--icon fab fa-twitter-square"></i>
+                        </a>
+                        <a href="https://www.facebook.com/darkmatter77" itemprop="url" target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="c-sns--icon fab fa-facebook-square"></i>
+                        </a>
+                        <a href="mailto:drain2291@gmail.com">
+                            <i class="c-sns--icon fas fa-envelope-square"></i>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </nav>
