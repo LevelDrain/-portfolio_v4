@@ -94,7 +94,7 @@
     margin-top: 2rem;
 }
 
-.p-article--btnbox .c-heading{
+.p-article--btnbox .c-heading {
     text-align: center;
 }
 
@@ -213,4 +213,9 @@
     .tapunset {
         pointer-events: auto;
     }
+}
+
+/* 画像横幅が小さすぎるときの補正 */
+.centering {
+    text-align: center;
 }
