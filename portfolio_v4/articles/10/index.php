@@ -34,7 +34,8 @@
             <div class="l-container section-fadein">
                 <h2 class="c-title">水準研究所</h2>
                 <p class="c-heading">
-                    ※記事執筆中
+                    Vue.js案件を取得した後、どれだけ理解できているか実力を試すために制作したポートフォリオ。<br>
+                    アニメーションの実装など、フロントエンドのスキルを試したかったプレイグラウンド的な要素のある作品。
                 </p>
 
                 <p class="c-heading">制作環境</p>
@@ -43,18 +44,43 @@
                     <li>Pixi.js</li>
                     <li>CLIP STUDIO PAINT</li>
                 </ul>
+            </div>
 
+            <div class="l-container section-fadein">
                 <h3 class="p-article--title">SF風アニメーションの実装</h3>
                 <p class="c-heading">
-                    ……
+                    SF映画でよくあるGUIをイメージした直線的な演出を実装している。画像はSVGでCSSのanimationで消したり表示したりを繰り返す。
                 </p>
-                <div class="p-article--fig wl">
-                    <img src="../img/img_portfoliov2_1.png" alt="">
-                </div>
                 <div class="p-article--fig wl">
                     <img src="../img/img_portfoliov2_2.png" alt="">
                 </div>
+            </div>
 
+            <div class="l-container section-fadein">
+                <h3 class="p-article--title">コンセプト</h3>
+                <p class="c-heading">
+                    フロントエンドの師匠が授業中に「ああ、ずっと水分管理されて寝ていたい」と言っていたのを思い出し、SF映画の培養槽をテーマに制作したいと考えていた。<br>
+                    Pixi.jsを使用したかったので、泡に見立てた画像にアニメーションを実装する。
+                </p>
+                <div class="p-article--fig wl centering">
+                    <img src="../img/p2_sfimage.jpg" alt="">
+                </div>
+                <div class="p-article--fig wl">
+                    <img src="../img/img_portfoliov2_1.png" alt="">
+                </div>
+
+                <p class="c-heading">
+                    水槽の脳（すいそうののう、Brain in a vat）とは、
+                    「自分が体験しているこの世界は、実は水槽に浮かんだ脳が見ているバーチャルリアリティなのではないか」
+                    という懐疑主義的な思考実験(<a href="https://w.atwiki.jp/p_mind/pages/35.html" target="_blank"
+                                     rel="noopener noreferrer">心の哲学まとめwiki</a>)。
+                </p>
+                <div class="p-article--fig">
+                    <img src="../img/brain_nou_suisou_denkyoku.png" alt="">
+                </div>
+            </div>
+
+            <div class="l-container section-fadein">
                 <h3 class="p-article--title">モーダルのルーティング</h3>
                 <p class="c-heading">
                     各ページがコンポーネントなので、実は親URLはhome一つしかない。
@@ -70,7 +96,8 @@
                 </div>
 
                 <div class="p-article--btnbox">
-                    <a href="https://pf-ueshimalab.netlify.app/" class="c-button" target="_blank" rel="noopener noreferrer">実際のWebサイトへ</a>
+                    <a href="https://pf-ueshimalab.netlify.app/" class="c-button" target="_blank"
+                       rel="noopener noreferrer">実際のWebサイトへ</a>
                 </div>
 
                 <div class="p-article--btnbox c-border-top">
