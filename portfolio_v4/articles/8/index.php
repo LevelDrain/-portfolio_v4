@@ -82,21 +82,21 @@
                 <p class="c-heading">
                     「理性と野生」ポートフォリオ上ではブルブル震えるcsshakeによるアニメーションつき。<br>
                     <a href="https://elrumordelaluz.github.io/csshake/" target="_blank"
-                       rel="noopener noreferrer">☞ csshake 外部リンク</a>
+                       rel="noopener noreferrer">☞ csshake クリックで外部リンクへ移動</a>
                 </p>
 
                 <div class="p-article--fig centering">
                     <img src="../img/p1_img_to_top.png" alt="">
                 </div>
-            </div>
 
-            <div class="p-article--btnbox">
-                <a href="https://leveldrain.sumomo.ne.jp/Portfolio/" class="c-button" target="_blank"
-                   rel="noopener noreferrer">実際のWebサイトへ</a>
-            </div>
+                <div class="p-article--btnbox">
+                    <a href="https://leveldrain.sumomo.ne.jp/Portfolio/" class="c-button" target="_blank"
+                       rel="noopener noreferrer">実際のWebサイトへ</a>
+                </div>
 
-            <div class="p-article--btnbox c-border-top">
-                <a href="javascript:history.back();" class="c-button">戻る</a>
+                <div class="p-article--btnbox c-border-top">
+                    <a href="javascript:history.back();" class="c-button">戻る</a>
+                </div>
             </div>
         </section>
     </main>

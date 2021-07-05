@@ -147,7 +147,7 @@
                     <img src="../img/img_excel.png" alt="">
                 </div>
                 <div class="p-article--btnbox">
-                    <a href="https://leveldrain.sumomo.ne.jp/PokemonButtleJS/Specification.xlsx"
+                    <a href="https://leveldrain.sumomo.ne.jp/Portfolio/FEIF_calc.xlsx"
                        class="c-button tapunset">ダウンロード</a>
                     <p class="c-heading">
                         ※ Excelファイルにつき、スマホでのダウンロードを無効にしております。
