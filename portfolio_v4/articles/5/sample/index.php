@@ -28,6 +28,7 @@
             <div class="l-container">
                 <h3 class="p-article--title">担当箇所スクリーンショット</h3>
                 <p class="c-heading">
+                    スクリーンショットは開発段階のものです。<br>
                     ※ 長い記事ですので、右下の剣アイコン（上へボタン）をお使いください。
                 </p>
                 <div class="p-article--btnbox">
@@ -36,7 +37,7 @@
 
                 <h3 class="p-article--title">公式サイト</h3>
                 <p class="c-heading">
-                    前田デザイン室「ぬけだ荘」プロジェクトページ
+                    前田デザイン室「ぬけだ荘」プロジェクトページ。
                 </p>
                 <div class="p-article--btnbox">
                     <a href="https://nukedasou.maeda-design-room.net/" class="c-button" target="_blank"
