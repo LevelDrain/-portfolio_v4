@@ -59,12 +59,18 @@
             <div class="l-container section-fadein">
                 <h3 class="p-article--title">コンセプト</h3>
                 <p class="c-heading">
-                    フロントエンドの師匠が授業中に「ああ、ずっと水分管理されて寝ていたい」と言っていたのを思い出し、SF映画の培養槽をテーマに制作したいと考えていた。<br>
+                    フロントエンドの師匠が授業中に「ああ、ずっと水分管理されて寝ていたい」と言っていたのを思い出し、SF映画の培養槽をテーマに制作したいと考えていた。
+                </p>
+                <div class="p-article--fig centering wl">
+                    <a href="https://seiga.nicovideo.jp/seiga/im3945773" target="_blank"
+                       rel="noopener noreferrer"><img src="../img/p2_sfimage.jpg" alt="" class="pointerevent" width="100%"></a>
+                    <p class="c-heading">
+                        Illustrated by Sinlaire（画像クリックで制作者のサイトへ）
+                    </p>
+                </div>
+                <p class="c-heading">
                     Pixi.jsを使用したかったので、泡に見立てた画像にアニメーションを実装する。
                 </p>
-                <div class="p-article--fig wl centering">
-                    <img src="../img/p2_sfimage.jpg" alt="">
-                </div>
                 <div class="p-article--fig wl">
                     <img src="../img/img_portfoliov2_1.png" alt="">
                 </div>
@@ -73,10 +79,15 @@
                     水槽の脳（すいそうののう、Brain in a vat）とは、
                     「自分が体験しているこの世界は、実は水槽に浮かんだ脳が見ているバーチャルリアリティなのではないか」
                     という懐疑主義的な思考実験(<a href="https://w.atwiki.jp/p_mind/pages/35.html" target="_blank"
-                                     rel="noopener noreferrer">心の哲学まとめwiki</a>)。
+                                     rel="noopener noreferrer">心の哲学まとめwiki</a>)。<br>
+                    画像は下記画像をリスペクトして描き起こしている。
                 </p>
-                <div class="p-article--fig">
-                    <img src="../img/brain_nou_suisou_denkyoku.png" alt="">
+                <div class="p-article--fig wl">
+                    <a href="https://zeuxis_of_losdiajana.artstation.com/projects/Oy1NQv" target="_blank"
+                       rel="noopener noreferrer"><img src="../img/p2_sfimage2.jpg" alt="" class="pointerevent"></a>
+                    <p class="c-heading">
+                        Created by jeremy jozwik（画像クリックで制作者のサイトへ）
+                    </p>
                 </div>
             </div>
 

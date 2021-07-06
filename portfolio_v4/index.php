@@ -73,7 +73,7 @@
                                 } else {
                                     echo '<a class="animsition-link" href="./articles/' . hsc($contents[4]) . '">';
                                 } ?>
-                                <img src="articles/img/<?= hsc($contents[1]) ?>" alt="" style="pointer-events: auto">
+                                <img src="articles/img/<?= hsc($contents[1]) ?>" alt="" class="pointerevent">
                                 </a>
                             </div>
                         <?php endif; ?>

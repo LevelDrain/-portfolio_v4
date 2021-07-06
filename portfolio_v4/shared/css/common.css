@@ -858,6 +858,11 @@ a:hover {
     }
 }
 
+.pointerevent{
+    cursor: pointer;
+    pointer-events: auto;
+}
+
 /* swiper */
 .swiper-container {
     width: 100%;
