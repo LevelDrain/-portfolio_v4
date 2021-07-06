@@ -42,6 +42,7 @@
                 <ul class="p-article--list">
                     <li>Vue.js</li>
                     <li>Pixi.js</li>
+                    <li>Netlify</li>
                     <li>CLIP STUDIO PAINT</li>
                 </ul>
             </div>

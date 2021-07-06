@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>南禅寺PV | 到龍門</title>
+    <title>UnrealEngine4制作サンプル | 到龍門</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../shared/css/vendor/lity.min.css">
@@ -27,7 +27,7 @@
         <section class="p-article--movie">
             <div class="l-container">
                 <div class="p-article--iframe">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_tAEVqjudEA"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DUcEZpyQgSo"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -37,16 +37,18 @@
 
         <section class="p-article--text">
             <div class="l-container section-fadein">
-                <h2 class="c-title">南禅寺PV</h2>
+                <h2 class="c-title">UnrealEngine4制作サンプル</h2>
                 <p class="c-heading">
-                    京都コンピュータ学院時代の課題。実習用の動画リソースを編集して紹介動画を制作した。
+                    UE4/Premierによる3DCG動画制作。UE4ぷちコン応募（学生作品）
                 </p>
                 <p class="c-heading">挿入曲</p>
                 <ul class="p-article--list">
-                    <li>名曲探訪「新日本紀行」 : 富田勲</li>
+                    <li>Sapphire Dreams : Mars Lasar</li>
                 </ul>
                 <p class="c-heading">制作環境</p>
                 <ul class="p-article--list">
+                    <li>UnrealEngine4</li>
+                    <li>blender</li>
                     <li>Adobe Premier</li>
                 </ul>
                 <div class="p-article--btnbox c-border-top">

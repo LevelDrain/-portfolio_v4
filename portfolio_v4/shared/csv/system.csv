@@ -2,13 +2,13 @@
 1,img_nanzenji.png,南禅寺PV,"動画
 京都南禅寺のPV。動画作成のみ（学生作品）",1/,art,FALSE
 2,img_mizunomori.png,水生植物公園みずの森PV,"動画
-取材から動画制作まで一貫して経験した施設紹介（学生作品）",test/,art,TRUE
+取材から動画制作まで一貫して経験した施設紹介（学生作品）",2/,art,TRUE
 3,img_ue4.png,UnrealEngine4制作サンプル,"動画
-UE4/Premierによる3DCG動画制作。UE4ぷちコン応募（学生作品）",test/,art,FALSE
+UE4/Premierによる3DCG動画制作。UE4ぷちコン応募（学生作品）",3/,art,FALSE
 4,img_fatman.png,おデブさんのダイエット法,"動画
-blender/Makehuman/Premierによる3DCG動画制作（学生作品）",test/,art,TRUE
+blender/Makehuman/Premierによる3DCG動画制作（学生作品）",4/,art,TRUE
 5,img_maede.png,前田デザイン室活動,"デザイン・イラストなど
-前田デザイン室でアーティストとして活動した成果物",test/,art,FALSE
+前田デザイン室でデザインスキルを身に着けるため活動した成果物",5/,art,FALSE
 6,img_pokemon.png,ポ〇モンバトル,"JavaScript
 初めてJavaScriptを触ったときの作品（学生作品）",6/,web,FALSE
 7,img_diary.png,一行日記,"PHP
@@ -16,9 +16,9 @@ CRUDの基礎。バックエンドの苦手意識はここで解消された（�
 8,img_portfolio1.png,学生時代ポートフォリオ,"HTML/CSS/JavaScript
 化け猫の自作イラストが特徴的な2年前のポートフォリオ（学生作品）",8/,web,FALSE
 9,img_threejs.png,魔法生成サイト「ジオストーム」,"Three.js
-フロントエンドエンジニアを目指すきっかけとなった学生作品。制作秘話あり。",9/,web,TRUE
+フロントエンドエンジニアを目指すきっかけとなった学生作品。制作秘話あり。",9/,web,FALSE
 10,img_portfolio2.png,水準研究所,"Vue.js/Pixi.js
-Vue.jsの実力を試すために制作したポートフォリオ",10/,web,FALSE
+Vue.jsの実力を試すために制作したポートフォリオ",10/,web,TRUE
 11,img_portfolio4.png,到龍門 - The road of Front End,"HTML/CSS/JavaScript/Three.js/jQuery
 アニメーション、デザイン、flocssの導入など、現在のスキルレベルを分かるよう構成された最新のポートフォリオ",11/,web,TRUE
 12,img_system.png,予約システム,"Laravel/Vue.js
